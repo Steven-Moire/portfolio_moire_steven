@@ -99,10 +99,7 @@
     <script defer src="{{ '/unregister.js' | relative_url }}"></script>
   {% endif %}
 
-  <!-- GA -->
-  {% if site.google_analytics.id != empty and site.google_analytics.id %}
-    {% include google-analytics.html %}
-  {% endif %}
+  <!-- GA is handled by assets/js/cookie-consent.js (GDPR consent required) -->
 {% endif %}
 
 <!-- Lang toggle — global on all pages -->

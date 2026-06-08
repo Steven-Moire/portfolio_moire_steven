@@ -292,7 +292,8 @@ assets/*
 !assets/js/
 !assets/js/**
 
-# Config ECC
+# Config ECC / tooling local
+.tool-versions
 commitlint.config.js
 eslint.config.js
 package.json
