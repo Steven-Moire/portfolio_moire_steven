@@ -5,7 +5,7 @@ Flask app for weekly meal planning and nutritional tracking. Built on the CIQUAL
 
 **Stack:** Python · Flask · CIQUAL JSON
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/nutrition-app/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/nutrition-app/)**
 
 ---
 
@@ -16,4 +16,4 @@ Application Flask de planification hebdomadaire des repas et suivi nutritionnel.
 
 **Stack :** Python · Flask · JSON CIQUAL
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/nutrition-app/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/nutrition-app/)**

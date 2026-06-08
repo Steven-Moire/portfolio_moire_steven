@@ -5,7 +5,7 @@ Real-time anomaly detection on 15 industrial thermal enclosures. Hybrid architec
 
 **Stack:** Python · Scikit-learn · MLflow · DVC · Grafana · Prometheus · Docker · Kubernetes
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/predictive-maintenance/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/predictive-maintenance/)**
 
 ---
 
@@ -16,4 +16,4 @@ Détection d'anomalies en temps réel sur 15 enceintes thermiques industrielles.
 
 **Stack :** Python · Scikit-learn · MLflow · DVC · Grafana · Prometheus · Docker · Kubernetes
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/predictive-maintenance/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/predictive-maintenance/)**

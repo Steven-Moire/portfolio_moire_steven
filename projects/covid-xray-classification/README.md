@@ -7,7 +7,7 @@
 
 **GitHub:** [Data-Team-DST/docker_covid](https://github.com/Data-Team-DST/docker_covid)
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/covid-xray/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/covid-xray/)**
 
 ---
 
@@ -20,4 +20,4 @@ CNN 4 classes (COVID, Opacité pulmonaire, Normal, Pneumonie virale) sur 42 330 
 
 **GitHub :** [Data-Team-DST/docker_covid](https://github.com/Data-Team-DST/docker_covid)
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/covid-xray/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/covid-xray/)**

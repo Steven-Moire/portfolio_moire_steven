@@ -5,7 +5,7 @@ Structured self-training: building a complete MLOps stack from notebook to monit
 
 **Stack:** Python · FastAPI · MLflow · DVC · Docker · Kubernetes · GitHub Actions · Evidently · Prometheus · Grafana
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/mlops-pipeline/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/mlops-pipeline/)**
 
 ---
 
@@ -16,4 +16,4 @@ Auto-formation structurée : construction d'une stack MLOps complète du noteboo
 
 **Stack :** Python · FastAPI · MLflow · DVC · Docker · Kubernetes · GitHub Actions · Evidently · Prometheus · Grafana
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/mlops-pipeline/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/mlops-pipeline/)**

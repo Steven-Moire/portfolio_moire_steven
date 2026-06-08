@@ -5,7 +5,7 @@ On-premise RAG pipeline over ~500 GxP documents (SOPs & WINs). Multilingual embe
 
 **Stack:** Python · HuggingFace · HDBSCAN · Mistral 7B (quantized) · FastAPI · Docker
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/smart-doc-reduction/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/smart-doc-reduction/)**
 
 ---
 
@@ -16,4 +16,4 @@ Pipeline RAG on-premise sur ~500 documents GxP (SOPs & modes opératoires). Embe
 
 **Stack :** Python · HuggingFace · HDBSCAN · Mistral 7B (quantisé) · FastAPI · Docker
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/smart-doc-reduction/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/smart-doc-reduction/)**

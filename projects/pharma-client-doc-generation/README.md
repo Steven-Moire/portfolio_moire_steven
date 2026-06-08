@@ -5,7 +5,7 @@ DOCX → Excel pipeline via internal LLM, deployed in production. Performance im
 
 **Stack:** Python · FastAPI · Docker · Kubernetes · CI/CD (SonarQube, ArgoCD)
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/doc-generation/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/doc-generation/)**
 
 ---
 
@@ -16,4 +16,4 @@ Pipeline DOCX → Excel via LLM interne, déployé en production. Performance am
 
 **Stack :** Python · FastAPI · Docker · Kubernetes · CI/CD (SonarQube, ArgoCD)
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/doc-generation/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/doc-generation/)**

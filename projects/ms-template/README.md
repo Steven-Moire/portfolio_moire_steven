@@ -5,7 +5,7 @@ Git-cloneable project scaffold: centralized logging (dual-write with local fallb
 
 **Stack:** Python · Flask · Docker · Bash
 
-**[Full documentation →](https://steven-moire.github.io/StevenMoire.github.io/projects/ms-template/)**
+**[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/ms-template/)**
 
 ---
 
@@ -16,4 +16,4 @@ Scaffold de projet clonable : logging centralisé (dual-write avec fallback loca
 
 **Stack :** Python · Flask · Docker · Bash
 
-**[Documentation complète →](https://steven-moire.github.io/StevenMoire.github.io/projects/ms-template/)**
+**[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/ms-template/)**
