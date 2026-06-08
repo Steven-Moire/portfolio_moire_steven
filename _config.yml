@@ -50,7 +50,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # managed by assets/js/cookie-consent.js (RGPD — loaded only after consent)
+  id: G-PGQSZBFZZ4 # loaded via assets/js/cookie-consent.js (RGPD — after consent)
 
 # Prefer color scheme setting.
 #

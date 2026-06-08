@@ -286,7 +286,11 @@ templates/
 tests/
 ecc-dashboard/
 legacy-command-shims/
-assets/
+assets/*
+!assets/img/
+!assets/img/**
+!assets/js/
+!assets/js/**
 
 # Config ECC
 commitlint.config.js
