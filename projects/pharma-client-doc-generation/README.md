@@ -1,9 +1,9 @@
 # AI Document Generation Pipeline
 > 🟢 Production — International pharmaceutical group (CAC 40)
 
-DOCX → Excel pipeline via internal LLM, deployed in production. Performance improved from 58% to 74% through iterative user feedback loops. Microservices architecture on Kubernetes.
+DOCX → Excel pipeline via internal LLM, deployed in production. +16 point performance gain measured in production through iterative user feedback loops. Microservices architecture on Kubernetes.
 
-**Stack:** Python · FastAPI · Docker · Kubernetes · CI/CD (SonarQube, ArgoCD)
+**Stack:** Python · FastAPI · Docker · Kubernetes · CI/CD · GitOps
 
 **[Full documentation →](https://steven-moire.github.io/portfolio_moire_steven/projects/doc-generation/)**
 
@@ -12,8 +12,8 @@ DOCX → Excel pipeline via internal LLM, deployed in production. Performance im
 # Pipeline de génération documentaire IA
 > 🟢 Production — Groupe pharmaceutique international (CAC 40)
 
-Pipeline DOCX → Excel via LLM interne, déployé en production. Performance améliorée de 58% à 74% par boucles de feedback utilisateur itératives. Architecture microservices sur Kubernetes.
+Pipeline DOCX → Excel via LLM interne, déployé en production. Gain de +16 points de performance mesuré en production par boucles de feedback utilisateur itératives. Architecture microservices sur Kubernetes.
 
-**Stack :** Python · FastAPI · Docker · Kubernetes · CI/CD (SonarQube, ArgoCD)
+**Stack :** Python · FastAPI · Docker · Kubernetes · CI/CD · GitOps
 
 **[Documentation complète →](https://steven-moire.github.io/portfolio_moire_steven/projects/doc-generation/)**

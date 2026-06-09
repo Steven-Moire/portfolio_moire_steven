@@ -1,7 +1,7 @@
 # Predictive Maintenance — Industrial Cold Chain
 > 🟢 Production — International pharmaceutical group (CAC 40)
 
-Real-time anomaly detection on 15 industrial thermal enclosures. Hybrid architecture: domain business rules + Isolation Forest (3 models × 3 equipment families). Best F1 = 0.778. Full MLOps stack (MLflow, DVC, Evidently, Grafana).
+Real-time anomaly detection across the site's complete industrial fleet. Hybrid architecture: domain business rules + Isolation Forest (3 models × 3 equipment families). F1 score > 0.75 on validation set. Full MLOps stack (MLflow, DVC, Evidently, Grafana).
 
 **Stack:** Python · Scikit-learn · MLflow · DVC · Grafana · Prometheus · Docker · Kubernetes
 
@@ -12,7 +12,7 @@ Real-time anomaly detection on 15 industrial thermal enclosures. Hybrid architec
 # Maintenance prédictive — Chaîne du froid industrielle
 > 🟢 Production — Groupe pharmaceutique international (CAC 40)
 
-Détection d'anomalies en temps réel sur 15 enceintes thermiques industrielles. Architecture hybride : règles métier + Isolation Forest (3 modèles × 3 familles d'équipements). Meilleur F1 = 0,778. Stack MLOps complet (MLflow, DVC, Evidently, Grafana).
+Détection d'anomalies en temps réel sur l'ensemble de la flotte industrielle du site. Architecture hybride : règles métier + Isolation Forest (3 modèles × 3 familles d'équipements). Score F1 > 0.75 sur jeu de validation. Stack MLOps complet (MLflow, DVC, Evidently, Grafana).
 
 **Stack :** Python · Scikit-learn · MLflow · DVC · Grafana · Prometheus · Docker · Kubernetes
 
