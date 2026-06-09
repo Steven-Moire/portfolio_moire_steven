@@ -18,12 +18,12 @@ permalink: /projects/predictive-maintenance/
 
 ## Context
 
-15 industrial thermal enclosures (cold-chain equipment) required continuous monitoring to detect anomalies before equipment failure. In a pharmaceutical environment, cold-chain failures can cause product degradation — the business case for early detection is direct and measurable.
+The site's industrial cold-chain fleet required continuous monitoring to detect anomalies before equipment failure. In a pharmaceutical environment, cold-chain failures can cause product degradation — the business case for early detection is direct and measurable.
 
 The equipment naturally split into **3 behavioral families** requiring distinct models:
-- **CYCLES** — periodic temperature patterns (regular oscillation)
-- **FROID** — continuous cold storage (stable low temperature)
-- **ISOTHERME** — isothermal stability (minimal variation)
+- **Famille A** — periodic temperature patterns (regular oscillation)
+- **Famille B** — continuous cold storage (stable low temperature)
+- **Famille C** — isothermal stability (minimal variation)
 
 ---
 
@@ -32,7 +32,7 @@ The equipment naturally split into **3 behavioral families** requiring distinct 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │           DATA INGESTION (temperature readings)             │
-│                  15 thermal enclosures                      │
+│              Industrial cold-chain fleet                    │
 └──────────────────────────┬──────────────────────────────────┘
                            │
                            ▼
@@ -52,8 +52,8 @@ The equipment naturally split into **3 behavioral families** requiring distinct 
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                  ANOMALY CLASSIFICATION                     │
-│  NORMAL · ANOMALIE_CYCLE · ANOMALIE_INSTABLE                │
-│  ANOMALIE_FRANCHE · ML_SUSPECT                              │
+│  NORMAL · WARNING_A · WARNING_B                             │
+│  CRITICAL · SUSPECT                                         │
 └──────────────────────────┬──────────────────────────────────┘
                            │
                            ▼
@@ -67,7 +67,7 @@ The equipment naturally split into **3 behavioral families** requiring distinct 
 
 ## Why Isolation Forest — Not Deep Learning
 
-The dataset contained ~10,000 readings. At that scale, deep learning approaches (LSTM, Autoencoders) carry real risks:
+The dataset contained several thousand temporal readings. At that scale, deep learning approaches (LSTM, Autoencoders) carry real risks:
 
 - **Overfitting** — small dataset with inherently rare labeled anomalies
 - **Interpretability loss** — in a regulated environment, "the neural network flagged this" is not an acceptable root cause for a maintenance alert
@@ -95,11 +95,11 @@ Isolation Forest is statistically well-suited for anomaly detection on tabular d
 
 | Parameter | Value |
 |---|---|
-| Equipment monitored | 15 thermal enclosures |
-| Behavioral families | 3 (CYCLES, FROID, ISOTHERME) |
-| Dataset size | ~10,000 readings |
-| Best F1 score | **0.778** |
-| Best config | `contamination=0.10` · `max_features=0.5` · `n_estimators=200` |
+| Equipment monitored | Complete industrial fleet |
+| Behavioral families | 3 (Famille A, Famille B, Famille C) |
+| Dataset size | Several thousand temporal readings |
+| Best F1 score | **> 0.75 on validation set** |
+| Best config | Optimised via cross-validated grid search |
 | Deployment | Production |
 
 </div>
@@ -115,12 +115,12 @@ Isolation Forest is statistically well-suited for anomaly detection on tabular d
 
 ## Contexte
 
-15 enceintes thermiques industrielles (équipements de chaîne du froid) nécessitaient une surveillance continue pour détecter les anomalies avant toute défaillance. Dans un environnement pharmaceutique, une rupture de chaîne du froid peut entraîner la dégradation des produits — le business case pour la détection précoce est direct et mesurable.
+La flotte industrielle de chaîne du froid du site nécessitait une surveillance continue pour détecter les anomalies avant toute défaillance. Dans un environnement pharmaceutique, une rupture de chaîne du froid peut entraîner la dégradation des produits — le business case pour la détection précoce est direct et mesurable.
 
 Les équipements se répartissaient naturellement en **3 familles comportementales** nécessitant des modèles distincts :
-- **CYCLES** — oscillation thermique périodique
-- **FROID** — stockage froid continu (température basse stable)
-- **ISOTHERME** — stabilité isotherme (variation minimale)
+- **Famille A** — oscillation thermique périodique
+- **Famille B** — stockage froid continu (température basse stable)
+- **Famille C** — stabilité isotherme (variation minimale)
 
 ---
 
@@ -129,7 +129,7 @@ Les équipements se répartissaient naturellement en **3 familles comportemental
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │           INGESTION (relevés de température)                │
-│                  15 enceintes thermiques                    │
+│              Flotte industrielle chaîne du froid            │
 └──────────────────────────┬──────────────────────────────────┘
                            │
                            ▼
@@ -148,8 +148,8 @@ Les équipements se répartissaient naturellement en **3 familles comportemental
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                 CLASSIFICATION D'ANOMALIES                  │
-│  NORMAL · ANOMALIE_CYCLE · ANOMALIE_INSTABLE                │
-│  ANOMALIE_FRANCHE · ML_SUSPECT                              │
+│  NORMAL · WARNING_A · WARNING_B                             │
+│  CRITICAL · SUSPECT                                         │
 └──────────────────────────┬──────────────────────────────────┘
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
@@ -162,7 +162,7 @@ Les équipements se répartissaient naturellement en **3 familles comportemental
 
 ## Pourquoi Isolation Forest — et pas Deep Learning
 
-Le dataset contenait ~10 000 relevés. À cette échelle, les approches deep learning (LSTM, Autoencoders) comportent des risques réels :
+Le dataset contenait plusieurs milliers de relevés temporels. À cette échelle, les approches deep learning (LSTM, Autoencoders) comportent des risques réels :
 
 - **Surapprentissage** — dataset limité avec des anomalies labellisées rares par nature
 - **Perte d'interprétabilité** — dans un environnement réglementé, "le réseau de neurones a signalé ça" n'est pas une cause racine acceptable pour une alerte de maintenance
@@ -190,11 +190,11 @@ Isolation Forest est statistiquement adapté à la détection d'anomalies sur do
 
 | Paramètre | Valeur |
 |---|---|
-| Équipements surveillés | 15 enceintes thermiques |
-| Familles comportementales | 3 (CYCLES, FROID, ISOTHERME) |
-| Taille du dataset | ~10 000 relevés |
-| Meilleur score F1 | **0,778** |
-| Meilleure config | `contamination=0.10` · `max_features=0.5` · `n_estimators=200` |
+| Équipements surveillés | Flotte industrielle complète du site |
+| Familles comportementales | 3 (Famille A, Famille B, Famille C) |
+| Taille du dataset | Plusieurs milliers de relevés temporels |
+| Meilleur score F1 | **Score F1 > 0.75 sur jeu de validation** |
+| Meilleure config | Paramètres optimisés via grid search cross-validé |
 | Déploiement | Production |
 
 </div>

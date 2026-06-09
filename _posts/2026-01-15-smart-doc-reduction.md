@@ -18,7 +18,7 @@ permalink: /projects/smart-doc-reduction/
 
 ## Context
 
-A regulated industrial site had accumulated ~500 Standard Operating Procedures (SOPs) and Work Instructions (WINs) across multiple GxP document management systems. Over time, documents had diverged, duplicated, and become inconsistent — both a compliance risk and a maintenance burden.
+A regulated industrial site had accumulated several hundred Standard Operating Procedures (SOPs) and Work Instructions (WINs) across multiple GxP document management systems. Over time, documents had diverged, duplicated, and become inconsistent — both a compliance risk and a maintenance burden.
 
 **Objective:** identify redundant documents, surface clusters of similar procedures, and generate a rationalization proposal that quality teams could act on.
 
@@ -32,7 +32,7 @@ Running a full RAG pipeline under these constraints is uncommon engineering.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│            SOURCE DOCUMENTS (~500 SOPs & WINs)              │
+│          SOURCE DOCUMENTS (SOPs & WINs — full corpus)       │
 │       GxP document management systems (extraction)          │
 └──────────────────────────┬──────────────────────────────────┘
                            │  PDF / DOCX extraction
@@ -80,7 +80,7 @@ K-Means requires you to specify `k` — the number of clusters — upfront. In a
 HDBSCAN:
 - Discovers clusters of arbitrary shape and density
 - Explicitly marks outliers (noise) rather than forcing them into a cluster
-- Scales well to embedding spaces with ~500 documents
+- Scales well to embedding spaces across the full document corpus
 - Requires no assumption about the number of procedure families
 
 ### Why `multilingual-e5-large`
@@ -127,7 +127,7 @@ This is one of the rare cases where a full RAG pipeline (embedding → clusterin
 
 ## Contexte
 
-Un site industriel réglementé avait accumulé ~500 SOPs (Standard Operating Procedures) et modes opératoires à travers plusieurs systèmes de gestion documentaire GxP. Au fil du temps, les documents avaient divergé, été dupliqués et présentaient des incohérences — à la fois un risque de conformité et un problème de maintenance.
+Un site industriel réglementé avait accumulé plusieurs centaines de SOPs (Standard Operating Procedures) et modes opératoires à travers plusieurs systèmes de gestion documentaire GxP. Au fil du temps, les documents avaient divergé, été dupliqués et présentaient des incohérences — à la fois un risque de conformité et un problème de maintenance.
 
 **Objectif :** identifier les documents redondants, faire émerger des clusters de procédures similaires, et générer une proposition de rationalisation que les équipes qualité pourraient exploiter.
 
@@ -141,7 +141,7 @@ Faire tourner un pipeline RAG complet sous ces contraintes est de l'ingénierie 
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│         DOCUMENTS SOURCE (~500 SOPs & modes opératoires)    │
+│     DOCUMENTS SOURCE (SOPs & modes opératoires — corpus)    │
 │       Systèmes de gestion documentaire GxP (extraction)     │
 └──────────────────────────┬──────────────────────────────────┘
                            │  Extraction PDF / DOCX
@@ -189,7 +189,7 @@ K-Means exige de spécifier `k` à l'avance. Dans un contexte de rationalisation
 HDBSCAN :
 - Découvre des clusters de forme et densité arbitraires
 - Marque explicitement les outliers (bruit) au lieu de les forcer dans un cluster
-- Passe à l'échelle sur des espaces d'embeddings de ~500 documents
+- Passe à l'échelle sur des espaces d'embeddings de taille industrielle
 - Aucune hypothèse sur le nombre de familles de procédures
 
 ### Pourquoi `multilingual-e5-large`
