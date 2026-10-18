@@ -1,0 +1,9 @@
+<!-- Default social preview: page.image would also render as a visible banner in Chirpy, so the fallback lives here -->
+{% unless page.image %}
+  {% assign social_preview_url = site.social_preview | absolute_url %}
+  <meta property="og:image" content="{{ social_preview_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.title }} · {{ site.tagline }}">
+  <meta name="twitter:image" content="{{ social_preview_url }}">
+{% endunless %}

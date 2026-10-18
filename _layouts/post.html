@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<script>
+/* Set lang before content renders — prevents flash of wrong language */
+(function () { document.documentElement.dataset.lang = localStorage.getItem('portfolio-lang') || 'en'; })();
+</script>
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.date | date: "%B %d, %Y" }}</p>
+  {{ content }}
+</article>
