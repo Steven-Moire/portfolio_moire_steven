@@ -23,15 +23,15 @@ Stack: Jekyll (static site generator, Ruby) + Chirpy theme + GitHub Pages. Chose
 
 ### Problems I actually solved
 
-**Deployment:** GitHub Actions pipeline wasn't obvious: the Jekyll build had to run in CI, not locally. Had to switch Pages source from "Deploy from branch" to "GitHub Actions" and understand why one build succeeded while another failed.
+Deployment: GitHub Actions pipeline wasn't obvious: the Jekyll build had to run in CI, not locally. Had to switch Pages source from "Deploy from branch" to "GitHub Actions" and understand why one build succeeded while another failed.
 
-**Google Drive embeds:** links from Drive didn't work embedded: had to learn the difference between `/view?usp=sharing` and `/preview` URLs. Then discovered that my own Google account was bypassing the sharing restrictions, so I tested with a logged-out browser.
+Google Drive embeds: links from Drive didn't work embedded: had to learn the difference between `/view?usp=sharing` and `/preview` URLs. Then discovered that my own Google account was bypassing the sharing restrictions, so I tested with a logged-out browser.
 
-**VBA code sharing:** standard backtick code blocks didn't render VBA correctly in this version of Jekyll: ended up providing a direct download link instead.
+VBA code sharing: standard backtick code blocks didn't render VBA correctly in this version of Jekyll: ended up providing a direct download link instead.
 
-**Theme customization:** overriding Chirpy's layouts required understanding Jekyll's inheritance system. Created `_layouts/post.html` to extend the default layout without replacing it.
+Theme customization: overriding Chirpy's layouts required understanding Jekyll's inheritance system. Created `_layouts/post.html` to extend the default layout without replacing it.
 
-**Stack:** Jekyll · Ruby · GitHub Pages · GitHub Actions · Chirpy
+Stack: Jekyll · Ruby · GitHub Pages · GitHub Actions · Chirpy
 
 ---
 
@@ -58,15 +58,15 @@ Stack : Jekyll (générateur de site statique, Ruby) + thème Chirpy + GitHub Pa
 
 ### Problèmes réellement résolus
 
-**Déploiement :** le pipeline GitHub Actions n'était pas évident : le build Jekyll devait tourner en CI, pas en local. Il a fallu basculer la source Pages de "Deploy from branch" vers "GitHub Actions" et comprendre pourquoi un build réussissait pendant qu'un autre échouait.
+Déploiement : le pipeline GitHub Actions n'était pas évident : le build Jekyll devait tourner en CI, pas en local. Il a fallu basculer la source Pages de "Deploy from branch" vers "GitHub Actions" et comprendre pourquoi un build réussissait pendant qu'un autre échouait.
 
-**Embeds Google Drive :** les liens Drive ne fonctionnaient pas intégrés : différence entre `/view?usp=sharing` et `/preview` à apprendre. Puis découverte que mon propre compte Google contournait les restrictions de partage, tests avec un navigateur non connecté.
+Embeds Google Drive : les liens Drive ne fonctionnaient pas intégrés : différence entre `/view?usp=sharing` et `/preview` à apprendre. Puis découverte que mon propre compte Google contournait les restrictions de partage, tests avec un navigateur non connecté.
 
-**Partage de code VBA :** les blocs backtick standard ne rendaient pas le VBA correctement dans cette version de Jekyll, solution : lien de téléchargement direct.
+Partage de code VBA : les blocs backtick standard ne rendaient pas le VBA correctement dans cette version de Jekyll, solution : lien de téléchargement direct.
 
-**Personnalisation du thème :** surcharger les layouts Chirpy nécessitait de comprendre le système d'héritage Jekyll. Création de `_layouts/post.html` pour étendre le layout par défaut sans le remplacer.
+Personnalisation du thème : surcharger les layouts Chirpy nécessitait de comprendre le système d'héritage Jekyll. Création de `_layouts/post.html` pour étendre le layout par défaut sans le remplacer.
 
-**Stack :** Jekyll · Ruby · GitHub Pages · GitHub Actions · Chirpy
+Stack : Jekyll · Ruby · GitHub Pages · GitHub Actions · Chirpy
 
 ---
 

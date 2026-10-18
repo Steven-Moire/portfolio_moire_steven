@@ -31,7 +31,7 @@ This was before ChatGPT had become a workplace default, before Midjourney was on
 | **WPimagines** | Text-to-image for slide visuals |
 | **this person does not exist** | Synthetic face generation for anonymized personas |
 
-**Topics covered:** role of the Data Analyst, data analysis in patient health monitoring.
+Topics covered: role of the Data Analyst, data analysis in patient health monitoring.
 
 ---
 
@@ -68,7 +68,7 @@ C'était avant que ChatGPT ne devienne le réflexe par défaut en entreprise, av
 | **WPimagines** | Text-to-image pour les visuels de slides |
 | **this person does not exist** | Génération de visages synthétiques pour des personas anonymisés |
 
-**Sujets traités :** rôle du Data Analyst, analyse de données dans le suivi de la santé des patients.
+Sujets traités : rôle du Data Analyst, analyse de données dans le suivi de la santé des patients.
 
 ---
 

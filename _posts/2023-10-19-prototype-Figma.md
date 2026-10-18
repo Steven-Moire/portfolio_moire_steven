@@ -27,7 +27,7 @@ The deliverable was a working Figma prototype + a pitch to industry professional
 - Contributed to the business model (risk mitigation, funding strategy, partner acquisition)
 - Presented the pitch to the jury
 
-**Stack:** Figma · Google Slides · Sprint methodology
+Stack: Figma · Google Slides · Sprint methodology
 
 ---
 
@@ -60,7 +60,7 @@ Livrable : prototype Figma fonctionnel + pitch devant des professionnels, avec b
 - Contribution au business model (atténuation des risques, stratégie de financement, acquisition de partenaires)
 - Soutenance du pitch devant le jury
 
-**Stack :** Figma · Google Slides · Méthode Sprint
+Stack : Figma · Google Slides · Méthode Sprint
 
 ---
 

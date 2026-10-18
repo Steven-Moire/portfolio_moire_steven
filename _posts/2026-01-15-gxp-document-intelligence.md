@@ -12,7 +12,7 @@ redirect_from:
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🟢 GxP Document Intelligence: Semantic Clustering & Local LLM
+# GxP Document Intelligence: Semantic Clustering & Local LLM
 **International pharmaceutical group · On-premise private cloud · In production**
 
 > Source code is confidential (regulated industrial environment). This document covers pipeline architecture and technical decisions.
@@ -23,7 +23,7 @@ redirect_from:
 
 A regulated industrial site had accumulated several hundred Standard Operating Procedures (SOPs) and work instructions across multiple GxP document management systems. Over time, documents had diverged, duplicated, and become inconsistent: both a compliance risk and a maintenance burden.
 
-**Objective:** identify redundant documents, surface clusters of similar procedures, and generate a rationalization proposal that quality teams could act on.
+Objective: identify redundant documents, surface clusters of similar procedures, and generate a rationalization proposal that quality teams could act on.
 
 **The hard constraint: 100% on-premise.** No document could leave the closed network. Every model had to run on local infrastructure: no OpenAI API, no HuggingFace Inference Endpoints, no external calls of any kind.
 
@@ -117,9 +117,9 @@ The document corpus mixed French technical procedures with English standards (IS
 
 ## GxP Compliance & On-Premise Constraints
 
-- **Zero data exfiltration:** all models run on local GPU infrastructure, no document ever left the network
-- **Audit trail:** every extraction, embedding, and classification step is logged for compliance traceability
-- **Validated environment:** pipeline changes required a qualification cycle before deployment
+- Zero data exfiltration: all models run on local GPU infrastructure, no document ever left the network
+- Audit trail: every extraction, embedding, and classification step is logged for compliance traceability
+- Validated environment: pipeline changes required a qualification cycle before deployment
 
 The whole pipeline (embedding → clustering → structured LLM synthesis) runs inside the closed network; the LLM step stays outside the production deployment.
 
@@ -127,7 +127,7 @@ The whole pipeline (embedding → clustering → structured LLM synthesis) runs 
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🟢 GxP Document Intelligence : clustering sémantique et LLM local
+# GxP Document Intelligence : clustering sémantique et LLM local
 **Groupe pharmaceutique international · Cloud privé on-premise · En production**
 
 > Code source confidentiel (environnement industriel réglementé). Ce document couvre l'architecture du pipeline et les décisions techniques.
@@ -138,7 +138,7 @@ The whole pipeline (embedding → clustering → structured LLM synthesis) runs 
 
 Un site industriel réglementé avait accumulé plusieurs centaines de SOPs (Standard Operating Procedures) et modes opératoires à travers plusieurs systèmes de gestion documentaire GxP. Au fil du temps, les documents avaient divergé, été dupliqués et présentaient des incohérences : à la fois un risque de conformité et un problème de maintenance.
 
-**Objectif :** identifier les documents redondants, faire émerger des clusters de procédures similaires, et générer une proposition de rationalisation que les équipes qualité pourraient exploiter.
+Objectif : identifier les documents redondants, faire émerger des clusters de procédures similaires, et générer une proposition de rationalisation que les équipes qualité pourraient exploiter.
 
 **Contrainte forte : 100% on-premise.** Aucun document ne pouvait quitter le réseau fermé. Chaque modèle devait tourner sur l'infrastructure locale : pas d'API OpenAI, pas d'HuggingFace Inference Endpoints, aucun appel externe.
 
@@ -232,9 +232,9 @@ La quantification 4-bit tient confortablement dans la mémoire GPU locale dispon
 
 ## Conformité GxP & contraintes on-premise
 
-- **Zéro exfiltration :** tous les modèles tournent sur GPU local, aucun document n'a quitté le réseau
-- **Piste d'audit :** chaque étape d'extraction, d'embedding et de classification est loguée pour la traçabilité compliance
-- **Environnement validé :** les changements du pipeline nécessitaient un cycle de qualification avant déploiement
+- Zéro exfiltration : tous les modèles tournent sur GPU local, aucun document n'a quitté le réseau
+- Piste d'audit : chaque étape d'extraction, d'embedding et de classification est loguée pour la traçabilité compliance
+- Environnement validé : les changements du pipeline nécessitaient un cycle de qualification avant déploiement
 
 L'ensemble du pipeline (embedding → clustering → synthèse LLM structurée) tourne à l'intérieur du réseau fermé ; l'étape LLM reste hors du déploiement de production.
 

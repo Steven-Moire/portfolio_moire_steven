@@ -67,8 +67,8 @@
 
     const text = document.createElement('span');
     text.textContent = isFr
-      ? '🍪 Ce site utilise Google Analytics pour mesurer l\'audience (données anonymisées).'
-      : '🍪 This site uses Google Analytics to measure traffic (anonymised data).';
+      ? 'Ce site utilise Google Analytics pour mesurer l\'audience (données anonymisées).'
+      : 'This site uses Google Analytics to measure traffic (anonymised data).';
 
     const btnBase = 'padding:.35rem .9rem;border-radius:5px;cursor:pointer;' +
       'font-size:.78rem;font-weight:700;border:none;margin-left:.4rem;';

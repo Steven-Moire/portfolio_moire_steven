@@ -10,7 +10,7 @@ permalink: /projects/doc-generation/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🟢 AI Document Generation Pipeline
+# AI Document Generation Pipeline
 **International pharmaceutical group · On-premise regulated environment · In production**
 
 > Source code is confidential (regulated industrial environment). This document covers architecture, methodology, and results.
@@ -59,7 +59,7 @@ The project was built, deployed, and iterated in production over several months,
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Microservices architecture**: each stage is an independent FastAPI service, containerized and orchestrated via Kubernetes (multi-region deployment) with a full CI/CD pipeline.
+Microservices architecture: each stage is an independent FastAPI service, containerized and orchestrated via Kubernetes (multi-region deployment) with a full CI/CD pipeline.
 
 ---
 
@@ -90,17 +90,17 @@ The gain came entirely from structured feedback loops with business users, not f
 
 ## Lessons Learned
 
-**Document ingestion in a closed environment**: handling session-based authentication across multiple service restarts required maintaining auth state in a stateless microservices architecture. Not covered in standard documentation.
+Document ingestion in a closed environment: handling session-based authentication across multiple service restarts required maintaining auth state in a stateless microservices architecture. Not covered in standard documentation.
 
-**User feedback is a feature**: the performance gain had nothing to do with the LLM. It came from understanding how business users read the output and what "correct" actually meant to them.
+User feedback is a feature: the performance gain had nothing to do with the LLM. It came from understanding how business users read the output and what "correct" actually meant to them.
 
-**Regulated production is a different discipline**: in a GxP environment, every change to a deployed system triggers a validation cycle. Learning to scope changes tightly, to minimize validation overhead without sacrificing quality, was a key engineering constraint.
+Regulated production is a different discipline: in a GxP environment, every change to a deployed system triggers a validation cycle. Learning to scope changes tightly, to minimize validation overhead without sacrificing quality, was a key engineering constraint.
 
 </div>
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🟢 Pipeline de génération documentaire IA
+# Pipeline de génération documentaire IA
 **Groupe pharmaceutique international · Environnement réglementé on-premise · En production**
 
 > Code source confidentiel (environnement industriel réglementé). Ce document couvre l'architecture, la méthodologie et les résultats.
@@ -149,7 +149,7 @@ Projet construit, déployé et itéré en production sur plusieurs mois, avec de
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Architecture microservices** : chaque étape est un service FastAPI indépendant, containerisé et orchestré via Kubernetes (déploiement multi-région) avec un pipeline CI/CD complet.
+Architecture microservices : chaque étape est un service FastAPI indépendant, containerisé et orchestré via Kubernetes (déploiement multi-région) avec un pipeline CI/CD complet.
 
 ---
 
@@ -180,10 +180,10 @@ Le gain est venu exclusivement des boucles de feedback structuré avec les utili
 
 ## Leçons apprises
 
-**Ingestion documentaire dans un environnement fermé** : gérer l'authentification par session sur plusieurs redémarrages de services a requis le maintien de l'état d'authentification dans une architecture microservices stateless. Non couvert par la documentation standard.
+Ingestion documentaire dans un environnement fermé : gérer l'authentification par session sur plusieurs redémarrages de services a requis le maintien de l'état d'authentification dans une architecture microservices stateless. Non couvert par la documentation standard.
 
-**Le feedback utilisateur est une feature** : le gain de performance n'avait rien à voir avec le LLM. Il venait de la compréhension de comment les utilisateurs métier lisaient la sortie et de ce que "correct" signifiait réellement pour eux.
+Le feedback utilisateur est une feature : le gain de performance n'avait rien à voir avec le LLM. Il venait de la compréhension de comment les utilisateurs métier lisaient la sortie et de ce que "correct" signifiait réellement pour eux.
 
-**La production réglementée est une discipline différente** : dans un environnement GxP, chaque changement d'un système déployé déclenche un cycle de validation. Apprendre à limiter précisément le périmètre des changements, pour minimiser la charge de validation sans sacrifier la qualité, était une contrainte d'ingénierie clé.
+La production réglementée est une discipline différente : dans un environnement GxP, chaque changement d'un système déployé déclenche un cycle de validation. Apprendre à limiter précisément le périmètre des changements, pour minimiser la charge de validation sans sacrifier la qualité, était une contrainte d'ingénierie clé.
 
 </div>

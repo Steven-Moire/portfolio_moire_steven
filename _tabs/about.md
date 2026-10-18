@@ -27,7 +27,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 ## Steven Moire Bordier
 **AI Engineer · ML Engineer · MLOps**
 
-📧 [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/) · 💻 [GitHub](https://github.com/Steven-Moire)
+[steven.bordier@gmail.com](mailto:steven.bordier@gmail.com) · [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/) · [GitHub](https://github.com/Steven-Moire)
 
 ---
 
@@ -35,7 +35,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 Former teacher turned AI Engineer, with 2 years hands-on in a regulated industrial environment (GxP, pharmaceutical compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool used by a quality specialist, and an LLM document-generation pipeline used by two business users. Also a proof of concept for anomaly detection on cold-chain equipment.
 
-My background in education shapes how I approach technical work: I design for clarity, document my reasoning, and make architectural choices I can defend. Two years in a heavily regulated environment taught me that "it works on my machine" is not a deliverable.
+My background in education shapes how I approach technical work: I design for clarity, document my reasoning, and make architectural choices I can defend.
 
 **Available now** · open to AI Engineer, ML Engineer, MLOps roles.
 
@@ -83,9 +83,9 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 ## Contact
 
-- 📧 [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/)
-- 💻 [GitHub](https://github.com/Steven-Moire)
+- [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/)
+- [GitHub](https://github.com/Steven-Moire)
 
 **Availability: now**
 
@@ -96,7 +96,7 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 ## Steven Moire Bordier
 **AI Engineer · ML Engineer · MLOps**
 
-📧 [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/) · 💻 [GitHub](https://github.com/Steven-Moire)
+[steven.bordier@gmail.com](mailto:steven.bordier@gmail.com) · [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/) · [GitHub](https://github.com/Steven-Moire)
 
 ---
 
@@ -154,9 +154,9 @@ Avant la data, j'ai enseigné l'économie-gestion pendant 2 ans, et je continue 
 
 N'hésitez pas à me contacter pour discuter de collaborations ou d'opportunités :
 
-- 📧 [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/)
-- 💻 [GitHub](https://github.com/Steven-Moire)
+- [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/)
+- [GitHub](https://github.com/Steven-Moire)
 
 **Disponibilité : immédiate**
 

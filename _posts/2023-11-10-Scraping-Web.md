@@ -31,7 +31,7 @@ JobbyJobba (job listings site)
     → SQL queries (planned)
 ```
 
-**Extraction (excerpt):**
+Extraction (excerpt):
 
 ```python
 from bs4 import BeautifulSoup
@@ -52,7 +52,7 @@ for offer in soup.findAll('div', attrs={'class': 'offer'}):
     })
 ```
 
-**Stack:** Python · requests · BeautifulSoup · csv · SQL (planned)
+Stack: Python · requests · BeautifulSoup · csv · SQL (planned)
 
 ---
 
@@ -89,7 +89,7 @@ JobbyJobba (site d'offres d'emploi)
     → Requêtes SQL (prévu)
 ```
 
-**Extraction (extrait) :**
+Extraction (extrait) :
 
 ```python
 from bs4 import BeautifulSoup
@@ -110,7 +110,7 @@ for offer in soup.findAll('div', attrs={'class': 'offer'}):
     })
 ```
 
-**Stack :** Python · requests · BeautifulSoup · csv · SQL (prévu)
+Stack : Python · requests · BeautifulSoup · csv · SQL (prévu)
 
 ---
 

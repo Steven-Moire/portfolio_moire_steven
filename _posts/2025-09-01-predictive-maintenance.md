@@ -9,7 +9,7 @@ permalink: /projects/predictive-maintenance/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🧪 Predictive Maintenance: Industrial Cold Chain
+# Predictive Maintenance: Industrial Cold Chain
 **International pharmaceutical group · Proof of concept · Anomaly detection**
 
 > Source code is confidential (regulated industrial environment). This document covers architecture, modelling decisions, and results of a proof of concept that was not deployed to production.
@@ -21,9 +21,9 @@ permalink: /projects/predictive-maintenance/
 The site's cold-chain equipment needed continuous monitoring to detect anomalies before failure. In a pharmaceutical environment, cold-chain failures can cause product degradation, so the business case for early detection is direct and measurable.
 
 The proof of concept covered **15 cold-chain units**, which naturally split into **3 behavioral families**:
-- **Cycling:** periodic temperature patterns (regular oscillation)
-- **Cold storage:** stable low temperature
-- **Isothermal:** minimal variation
+- Cycling: periodic temperature patterns (regular oscillation)
+- Cold storage: stable low temperature
+- Isothermal: minimal variation
 
 ---
 
@@ -104,7 +104,7 @@ The proof of concept covered **15 cold-chain units**, which naturally split into
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🧪 Maintenance prédictive : chaîne du froid industrielle
+# Maintenance prédictive : chaîne du froid industrielle
 **Groupe pharmaceutique international · Preuve de concept · Détection d'anomalies**
 
 > Code source confidentiel (environnement industriel réglementé). Ce document couvre l'architecture, les choix de modélisation et les résultats d'une preuve de concept qui n'a pas été déployée en production.
@@ -116,9 +116,9 @@ The proof of concept covered **15 cold-chain units**, which naturally split into
 Les équipements de chaîne du froid du site nécessitaient une surveillance continue pour détecter les anomalies avant toute défaillance. Dans un environnement pharmaceutique, une rupture de chaîne du froid peut entraîner la dégradation des produits : le business case pour la détection précoce est direct et mesurable.
 
 La preuve de concept portait sur **15 équipements de chaîne du froid**, répartis naturellement en **3 familles comportementales** :
-- **Cyclique :** oscillation thermique périodique
-- **Stockage froid :** température basse stable
-- **Isotherme :** variation minimale
+- Cyclique : oscillation thermique périodique
+- Stockage froid : température basse stable
+- Isotherme : variation minimale
 
 ---
 

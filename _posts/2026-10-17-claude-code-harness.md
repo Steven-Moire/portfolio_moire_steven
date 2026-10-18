@@ -9,7 +9,7 @@ permalink: /projects/claude-harness/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🔵 Claude Code Harness: Working With an AI Coding Agent
+# Claude Code Harness: Working With an AI Coding Agent
 **Personal project · Agent tooling · Daily use**
 
 ---
@@ -58,9 +58,9 @@ Seven rules at the top of every `CLAUDE.md`. I did not copy the widely shared "4
 
 An instruction can be forgotten; a hook cannot.
 
-- **Client-residue guard**: blocks any `git commit` / `git push` whose diff contains a confidential term. It exists because of a real incident: a client identifier slipped into a committed script right after a sanitisation pass. Two lists are merged: past clients live on the machine only, never in a repo; the current project has its own list. Covered by tests.
-- **Naming guard**: warns when a Python file's name does not state its role (`_router`, `_service`, `_utils`…), each role having a line budget.
-- **Permissions**: force-push denied; push, reset, rebase and `.env` edits always ask a human first.
+- Client-residue guard: blocks any `git commit` / `git push` whose diff contains a confidential term. It exists because of a real incident: a client identifier slipped into a committed script right after a sanitisation pass. Two lists are merged: past clients live on the machine only, never in a repo; the current project has its own list. Covered by tests.
+- Naming guard: warns when a Python file's name does not state its role (`_router`, `_service`, `_utils`…), each role having a line budget.
+- Permissions: force-push denied; push, reset, rebase and `.env` edits always ask a human first.
 
 ### 3. Rules that encode real lessons
 
@@ -73,7 +73,7 @@ An instruction can be forgotten; a hook cannot.
 - `/monday`: turns the last audit into a week plan.
 - `/passation`: dated handover document, including a non-technical summary.
 - `/start-project`: asks the questions that shape the architecture (sensitive data, GPU, local / API / hybrid LLM) before the first line of code.
-- Decisions are recorded as ADRs, including a retroactive one when an undocumented choice came back to bite.
+- Decisions are recorded as ADRs.
 
 ---
 
@@ -88,7 +88,7 @@ An instruction can be forgotten; a hook cannot.
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🔵 Harness Claude Code : Travailler avec un agent de code IA
+# Harness Claude Code : Travailler avec un agent de code IA
 **Projet personnel · Outillage d'agent · Usage quotidien**
 
 ---
@@ -137,9 +137,9 @@ Sept règles en tête de chaque `CLAUDE.md`. Je n'ai pas copié les « 4 règles
 
 Une consigne peut s'oublier ; un hook, non.
 
-- **Garde anti-résidus client** : bloque tout `git commit` / `git push` dont le diff contient un terme confidentiel. Il existe à cause d'un vrai incident : un identifiant client s'est glissé dans un script committé juste après un chantier de sanitisation. Deux listes fusionnées : les anciens clients vivent uniquement sur la machine, jamais dans un dépôt ; le projet en cours a sa propre liste. Couvert par des tests.
-- **Garde de nommage** : avertit quand le nom d'un fichier Python n'annonce pas son rôle (`_router`, `_service`, `_utils`…), chaque rôle ayant un budget de lignes.
-- **Permissions** : force-push interdit ; push, reset, rebase et modification du `.env` demandent toujours l'accord d'un humain.
+- Garde anti-résidus client : bloque tout `git commit` / `git push` dont le diff contient un terme confidentiel. Il existe à cause d'un vrai incident : un identifiant client s'est glissé dans un script committé juste après un chantier de sanitisation. Deux listes fusionnées : les anciens clients vivent uniquement sur la machine, jamais dans un dépôt ; le projet en cours a sa propre liste. Couvert par des tests.
+- Garde de nommage : avertit quand le nom d'un fichier Python n'annonce pas son rôle (`_router`, `_service`, `_utils`…), chaque rôle ayant un budget de lignes.
+- Permissions : force-push interdit ; push, reset, rebase et modification du `.env` demandent toujours l'accord d'un humain.
 
 ### 3. Des règles qui encodent de vraies leçons
 
@@ -152,7 +152,7 @@ Une consigne peut s'oublier ; un hook, non.
 - `/monday` : transforme le dernier audit en plan de semaine.
 - `/passation` : document de passation daté, avec un résumé non technique.
 - `/start-project` : pose les questions qui conditionnent l'architecture (données sensibles, GPU, LLM local / API / hybride) avant la première ligne de code.
-- Les décisions sont tracées en ADR, y compris une rétroactive, quand un choix non documenté s'est retourné contre moi.
+- Les décisions sont tracées en ADR.
 
 ---
 

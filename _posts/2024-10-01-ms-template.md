@@ -9,7 +9,7 @@ permalink: /projects/ms-template/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🔵 ms-template: Reusable Microservices Boilerplate
+# ms-template: Reusable Microservices Boilerplate
 **Personal project · Architecture template · Active use**
 
 ---
@@ -23,7 +23,7 @@ git clone ms-template my-new-project
 # Cross-cutting concerns are already wired. Start building domain logic.
 ```
 
-**Philosophy:** Don't Repeat Yourself at the architecture level. Common infrastructure lives here once. Domain logic lives in the project that clones this. Each service has one responsibility and one reason to change: SOLID applied to the project scaffold, not just to individual classes.
+Philosophy: Don't Repeat Yourself at the architecture level. Common infrastructure lives here once. Domain logic lives in the project that clones this. Each service has one responsibility and one reason to change: SOLID applied to the project scaffold, not just to individual classes.
 
 ---
 
@@ -100,7 +100,7 @@ docker compose up ms-dashboard ms-logging
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🔵 ms-template : Boilerplate microservices réutilisable
+# ms-template : Boilerplate microservices réutilisable
 **Projet personnel · Template d'architecture · Utilisation active**
 
 ---
@@ -114,7 +114,7 @@ git clone ms-template mon-nouveau-projet
 # Les concerns transverses sont déjà câblés. Tu peux passer à la logique métier.
 ```
 
-**Philosophie :** DRY au niveau architecture. Les concerns transverses vivent ici une fois. La logique métier vit dans le projet qui clone ce template. Chaque service a une responsabilité et une seule raison de changer : SOLID appliqué au scaffold projet, pas seulement aux classes individuelles.
+Philosophie : DRY au niveau architecture. Les concerns transverses vivent ici une fois. La logique métier vit dans le projet qui clone ce template. Chaque service a une responsabilité et une seule raison de changer : SOLID appliqué au scaffold projet, pas seulement aux classes individuelles.
 
 ---
 

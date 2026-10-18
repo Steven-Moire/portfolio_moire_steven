@@ -9,7 +9,7 @@ permalink: /projects/covid-xray/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🟢 COVID X-Ray Classification: MLOps Pipeline
+# COVID X-Ray Classification: MLOps Pipeline
 **Academic project · École Liora · Deep learning + full MLOps infrastructure**
 
 > GitHub: [Data-Team-DST/docker_covid](https://github.com/Data-Team-DST/docker_covid) (public)
@@ -20,7 +20,7 @@ permalink: /projects/covid-xray/
 
 4-class classification of chest X-rays using deep learning, then industrialized into a production-grade MLOps pipeline with 9 containerized microservices, CI/CD, experiment tracking, and data versioning.
 
-This project started as a data science exercise and was pushed all the way to a deployable, monitored infrastructure, which is the point.
+This project started as a data science exercise and was pushed all the way to a deployable, monitored infrastructure.
 
 ---
 
@@ -33,9 +33,9 @@ This project started as a data science exercise and was pushed all the way to a 
 | Normal | Healthy chest X-rays |
 | Viral Pneumonia | Viral pneumonia (non-COVID) |
 
-- **Total images:** 42,330
-- **Volume:** ~806 MB (tracked via DVC)
-- **Source:** Kaggle (public dataset)
+- Total images: 42,330
+- Volume: ~806 MB (tracked via DVC)
+- Source: Kaggle (public dataset)
 
 ---
 
@@ -113,16 +113,16 @@ Grad-CAM generates heatmaps highlighting which regions of the X-ray drove the mo
 
 | Phase | Status | Scope |
 |---|---|---|
-| 1 · Baseline | ✅ Done | Env setup · preprocessing · baseline CNN · FastAPI · unit tests |
-| 2 · Tracking | ✅ Done | MLflow · DVC · microservices decomposition |
-| 3 · Infrastructure | 🔄 In progress | Kubernetes · full CI/CD · end-to-end orchestration |
-| 4 · Monitoring | 📋 Planned | Prometheus · Grafana · Evidently drift detection |
+| 1 · Baseline | Done | Env setup · preprocessing · baseline CNN · FastAPI · unit tests |
+| 2 · Tracking | Done | MLflow · DVC · microservices decomposition |
+| 3 · Infrastructure | In progress | Kubernetes · full CI/CD · end-to-end orchestration |
+| 4 · Monitoring | Planned | Prometheus · Grafana · Evidently drift detection |
 
 </div>
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🟢 Classification radiographies COVID : Pipeline MLOps
+# Classification radiographies COVID : Pipeline MLOps
 **Projet académique · École Liora · Deep learning + infrastructure MLOps complète**
 
 > GitHub : [Data-Team-DST/docker_covid](https://github.com/Data-Team-DST/docker_covid) (public)
@@ -133,7 +133,7 @@ Grad-CAM generates heatmaps highlighting which regions of the X-ray drove the mo
 
 Classification 4 classes de radiographies thoraciques par deep learning, puis industrialisation en pipeline MLOps de niveau production avec 9 microservices containerisés, CI/CD, suivi d'expériences et versionnement des données.
 
-Ce projet a démarré comme un exercice de data science et a été poussé jusqu'à une infrastructure déployable et monitorée : c'est ça l'intérêt.
+Ce projet a démarré comme un exercice de data science et a été poussé jusqu'à une infrastructure déployable et monitorée.
 
 ---
 
@@ -146,9 +146,9 @@ Ce projet a démarré comme un exercice de data science et a été poussé jusqu
 | Normal | Radios thoraciques saines |
 | Viral Pneumonia | Pneumonie virale (non-COVID) |
 
-- **Images totales :** 42 330
-- **Volume :** ~806 Mo (suivi via DVC)
-- **Source :** Kaggle (dataset public)
+- Images totales : 42 330
+- Volume : ~806 Mo (suivi via DVC)
+- Source : Kaggle (dataset public)
 
 ---
 
@@ -226,9 +226,9 @@ Grad-CAM génère des heatmaps montrant quelles régions de la radio ont orient�
 
 | Phase | Statut | Périmètre |
 |---|---|---|
-| 1 · Baseline | ✅ Terminé | Setup env · prétraitement · CNN baseline · FastAPI · tests unitaires |
-| 2 · Tracking | ✅ Terminé | MLflow · DVC · décomposition en microservices |
-| 3 · Infrastructure | 🔄 En cours | Kubernetes · CI/CD complet · orchestration bout-en-bout |
-| 4 · Monitoring | 📋 Planifié | Prometheus · Grafana · détection de drift Evidently |
+| 1 · Baseline | Terminé | Setup env · prétraitement · CNN baseline · FastAPI · tests unitaires |
+| 2 · Tracking | Terminé | MLflow · DVC · décomposition en microservices |
+| 3 · Infrastructure | En cours | Kubernetes · CI/CD complet · orchestration bout-en-bout |
+| 4 · Monitoring | Planifié | Prometheus · Grafana · détection de drift Evidently |
 
 </div>

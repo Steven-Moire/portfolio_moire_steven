@@ -9,7 +9,7 @@ permalink: /projects/mlops-pipeline/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🟡 MLOps Pipeline: Full Stack from Scratch
+# MLOps Pipeline: Full Stack from Scratch
 **Personal project · Structured self-training · Work in Progress**
 
 ![WIP](https://img.shields.io/badge/WIP-Phase%203%2F4-orange?style=flat-square)
@@ -28,10 +28,10 @@ This project is structured self-training: starting from a data science notebook,
 
 | Phase | Status | Goal | Key Tools |
 |---|---|---|---|
-| **1 · Baseline** | ✅ Done | Reproducible env · preprocessing · ML model · FastAPI · unit tests | FastAPI · pytest · venv |
-| **2 · Tracking** | ✅ Done | Experiment tracking · data versioning · microservices split | MLflow · DVC |
-| **3 · Infrastructure** | 🔄 In Progress | Containerization · Kubernetes · end-to-end CI/CD | Docker · K8s · GitHub Actions |
-| **4 · Monitoring** | 📋 Planned | Drift detection · real-time metrics · automated model updates | Evidently · Prometheus · Grafana |
+| **1 · Baseline** | Done | Reproducible env · preprocessing · ML model · FastAPI · unit tests | FastAPI · pytest · venv |
+| **2 · Tracking** | Done | Experiment tracking · data versioning · microservices split | MLflow · DVC |
+| **3 · Infrastructure** | In Progress | Containerization · Kubernetes · end-to-end CI/CD | Docker · K8s · GitHub Actions |
+| **4 · Monitoring** | Planned | Drift detection · real-time metrics · automated model updates | Evidently · Prometheus · Grafana |
 
 ---
 
@@ -63,11 +63,11 @@ This project is structured self-training: starting from a data science notebook,
 
 ## What Each Phase Actually Teaches
 
-**Phase 1 → 2:** the gap between "it runs on my machine" and "it's trackable and reproducible by anyone on the team."
+Phase 1 → 2: the gap between "it runs on my machine" and "it's trackable and reproducible by anyone on the team."
 
-**Phase 2 → 3:** the gap between "it's reproducible" and "it deploys reliably in any environment."
+Phase 2 → 3: the gap between "it's reproducible" and "it deploys reliably in any environment."
 
-**Phase 3 → 4:** the gap between "it's deployed" and "we know when it starts to degrade."
+Phase 3 → 4: the gap between "it's deployed" and "we know when it starts to degrade."
 
 Each transition is a real engineering problem. The point of this project is to hit each wall deliberately, understand why it exists, and engineer through it.
 
@@ -75,7 +75,7 @@ Each transition is a real engineering problem. The point of this project is to h
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🟡 Pipeline MLOps : Stack complète from scratch
+# Pipeline MLOps : Stack complète from scratch
 **Projet personnel · Auto-formation structurée · En cours**
 
 ![WIP](https://img.shields.io/badge/WIP-Phase%203%2F4-orange?style=flat-square)
@@ -94,10 +94,10 @@ Ce projet est une auto-formation structurée : partir d'un notebook data science
 
 | Phase | Statut | Objectif | Outils clés |
 |---|---|---|---|
-| **1 · Baseline** | ✅ Terminé | Env reproductible · prétraitement · modèle ML · FastAPI · tests unitaires | FastAPI · pytest · venv |
-| **2 · Tracking** | ✅ Terminé | Suivi d'expériences · versionnement données · décomposition microservices | MLflow · DVC |
-| **3 · Infrastructure** | 🔄 En cours | Containerisation · Kubernetes · CI/CD bout-en-bout | Docker · K8s · GitHub Actions |
-| **4 · Monitoring** | 📋 Planifié | Détection de drift · métriques temps réel · mises à jour automatiques du modèle | Evidently · Prometheus · Grafana |
+| **1 · Baseline** | Terminé | Env reproductible · prétraitement · modèle ML · FastAPI · tests unitaires | FastAPI · pytest · venv |
+| **2 · Tracking** | Terminé | Suivi d'expériences · versionnement données · décomposition microservices | MLflow · DVC |
+| **3 · Infrastructure** | En cours | Containerisation · Kubernetes · CI/CD bout-en-bout | Docker · K8s · GitHub Actions |
+| **4 · Monitoring** | Planifié | Détection de drift · métriques temps réel · mises à jour automatiques du modèle | Evidently · Prometheus · Grafana |
 
 ---
 
@@ -129,11 +129,11 @@ Ce projet est une auto-formation structurée : partir d'un notebook data science
 
 ## Ce qu'apprend chaque phase
 
-**Phase 1 → 2 :** le fossé entre "ça tourne sur ma machine" et "c'est traçable et reproductible par n'importe qui dans l'équipe."
+Phase 1 → 2 : le fossé entre "ça tourne sur ma machine" et "c'est traçable et reproductible par n'importe qui dans l'équipe."
 
-**Phase 2 → 3 :** le fossé entre "c'est reproductible" et "ça se déploie de façon fiable dans n'importe quel environnement."
+Phase 2 → 3 : le fossé entre "c'est reproductible" et "ça se déploie de façon fiable dans n'importe quel environnement."
 
-**Phase 3 → 4 :** le fossé entre "c'est déployé" et "on sait quand ça commence à se dégrader."
+Phase 3 → 4 : le fossé entre "c'est déployé" et "on sait quand ça commence à se dégrader."
 
 Chaque transition est un vrai problème d'ingénierie. L'intérêt de ce projet est de se heurter délibérément à chaque mur, de comprendre pourquoi il existe, et de l'ingénier pour le traverser.
 

@@ -32,7 +32,7 @@ Client: Book1, an e-commerce company. Objective: analyze user behavior on their 
 | Referral source | Where users come from, and how it affects behavior |
 | Device + cart abandonment | Device type correlated with abandonment rates |
 
-**Pipeline:** pandas (data cleaning, aggregation, feature engineering) → matplotlib (static charts) → plotly + Dash (interactive dashboard for the jury).
+Pipeline: pandas (data cleaning, aggregation, feature engineering) → matplotlib (static charts) → plotly + Dash (interactive dashboard for the jury).
 
 ---
 
@@ -40,7 +40,7 @@ Client: Book1, an e-commerce company. Objective: analyze user behavior on their 
 
 Interactive dashboard presented to the jury. Key findings: conversion rates varied significantly by traffic source; mobile users had higher cart abandonment rates; mid-week sessions showed peak engagement.
 
-**Stack:** Python · pandas · matplotlib · plotly · Dash
+Stack: Python · pandas · matplotlib · plotly · Dash
 
 </div>
 
@@ -70,7 +70,7 @@ Client : Book1, une entreprise e-commerce. Objectif : analyser le comportement d
 | Source de référence | Origine des utilisateurs et impact sur le comportement |
 | Appareil + abandon panier | Type d'appareil corrélé aux taux d'abandon |
 
-**Pipeline :** pandas (nettoyage, agrégation, feature engineering) → matplotlib (graphiques statiques) → plotly + Dash (dashboard interactif pour le jury).
+Pipeline : pandas (nettoyage, agrégation, feature engineering) → matplotlib (graphiques statiques) → plotly + Dash (dashboard interactif pour le jury).
 
 ---
 
@@ -78,6 +78,6 @@ Client : Book1, une entreprise e-commerce. Objectif : analyser le comportement d
 
 Dashboard interactif présenté au jury. Résultats clés : les taux de conversion variaient significativement selon la source de trafic ; les utilisateurs mobiles avaient des taux d'abandon de panier plus élevés ; les sessions en milieu de semaine montraient le pic d'engagement.
 
-**Stack :** Python · pandas · matplotlib · plotly · Dash
+Stack : Python · pandas · matplotlib · plotly · Dash
 
 </div>

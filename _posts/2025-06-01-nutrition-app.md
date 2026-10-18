@@ -9,7 +9,7 @@ permalink: /projects/nutrition-app/
 
 <div class="lang-block lang-en" markdown="1">
 
-# 🟡 Nutrition App: Meal Planning & Nutritional Tracking
+# Nutrition App: Meal Planning & Nutritional Tracking
 **Personal project · Flask prototype · In development**
 
 ---
@@ -24,11 +24,11 @@ A personal project built from a practical need: planning meals for the week, tra
 
 | Feature | Status |
 |---|---|
-| CIQUAL ingredient database (345 items · full nutritional values) | ✅ Implemented |
-| Recipe library (64 historical recipes encoded in JSON) | ✅ Implemented |
-| Weekly batch cooking planner | 🔄 In progress |
-| Per-meal nutritional tracking | 🔄 In progress |
-| Shopping list generation | 📋 Planned |
+| CIQUAL ingredient database (345 items · full nutritional values) | Implemented |
+| Recipe library (64 historical recipes encoded in JSON) | Implemented |
+| Weekly batch cooking planner | In progress |
+| Per-meal nutritional tracking | In progress |
+| Shopping list generation | Planned |
 
 ---
 
@@ -70,7 +70,7 @@ MealPlan
 
 <div class="lang-block lang-fr" markdown="1">
 
-# 🟡 Application Nutrition : Planification repas & suivi nutritionnel
+# Application Nutrition : Planification repas & suivi nutritionnel
 **Projet personnel · Prototype Flask · En développement**
 
 ---
@@ -85,11 +85,11 @@ Projet personnel né d'un besoin concret : planifier les repas de la semaine, tr
 
 | Fonctionnalité | Statut |
 |---|---|
-| Base CIQUAL (345 ingrédients · valeurs nutritionnelles complètes) | ✅ Implémenté |
-| Bibliothèque de recettes (64 recettes historiques encodées en JSON) | ✅ Implémenté |
-| Planificateur de batch cooking hebdomadaire | 🔄 En cours |
-| Suivi nutritionnel par repas | 🔄 En cours |
-| Génération de liste de courses | 📋 Planifié |
+| Base CIQUAL (345 ingrédients · valeurs nutritionnelles complètes) | Implémenté |
+| Bibliothèque de recettes (64 recettes historiques encodées en JSON) | Implémenté |
+| Planificateur de batch cooking hebdomadaire | En cours |
+| Suivi nutritionnel par repas | En cours |
+| Génération de liste de courses | Planifié |
 
 ---
 

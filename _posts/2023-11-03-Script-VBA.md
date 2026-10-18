@@ -35,7 +35,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-**Stack:** Excel · ExcelScript (VBA/Office 365)
+Stack: Excel · ExcelScript (VBA/Office 365)
 
 ---
 
@@ -76,7 +76,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-**Stack :** Excel · ExcelScript (VBA/Office 365)
+Stack : Excel · ExcelScript (VBA/Office 365)
 
 ---
 

@@ -10,7 +10,7 @@
 [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)](#)
 [![TOEIC](https://img.shields.io/badge/TOEIC-865%2F990-005eb8?style=flat-square)](#)
 
-📧 [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/) · 📅 Available now
+[steven.bordier@gmail.com](mailto:steven.bordier@gmail.com) · [LinkedIn](https://www.linkedin.com/in/steven-moirebordier-490556108/) · Available now
 
 ---
 
@@ -18,9 +18,9 @@
 
 Former teacher turned AI Engineer, with 2 years hands-on in a regulated industrial environment (GxP, pharmaceutical compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool used by a quality specialist, and an LLM document-generation pipeline used by two business users. Also a proof of concept for anomaly detection on cold-chain equipment.
 
-My background in education shapes how I approach technical work: I design for clarity, document my reasoning, and make architectural choices I can defend. Two years in a heavily regulated environment taught me that "it works on my machine" is not a deliverable.
+My background in education shapes how I approach technical work: I design for clarity, document my reasoning, and make architectural choices I can defend.
 
-**Status:** Apprenticeship completed · Available now
+Status: Apprenticeship completed · Available now
 
 ---
 
@@ -64,38 +64,37 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 ### Professional · International Pharmaceutical Group
 
-| | Project | Summary | Stack |
+| Status | Project | Summary | Stack |
 |---|---|---|---|
-| 🟢 | [**AI Document Generation**](projects/pharma-client-doc-generation/) | DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production, two business users. Kubernetes, multi-region. | `Python` `FastAPI` `Playwright` `K8s` |
-| 🟢 | [**GxP Document Intelligence**](projects/pharma-client-gxp-document-intelligence/) | Semantic clustering of several hundred GxP documents: multilingual embeddings + HDBSCAN, local Mistral 7B with structured JSON output. 6 microservices, in production for one quality specialist. | `HuggingFace` `HDBSCAN` `Mistral 7B` |
-| 🧪 | [**Predictive Maintenance**](projects/pharma-client-predictive-maintenance/) | Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation (75 to 80% detection) + unsupervised Isolation Forest layer. Not deployed to production. | `Scikit-learn` `FastAPI` `Docker` |
+| Production | [**AI Document Generation**](projects/pharma-client-doc-generation/) | DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production, two business users. Kubernetes, multi-region. | `Python` `FastAPI` `Playwright` `K8s` |
+| Production | [**GxP Document Intelligence**](projects/pharma-client-gxp-document-intelligence/) | Semantic clustering of several hundred GxP documents: multilingual embeddings + HDBSCAN, local Mistral 7B with structured JSON output. 6 microservices, in production for one quality specialist. | `HuggingFace` `HDBSCAN` `Mistral 7B` |
+| PoC | [**Predictive Maintenance**](projects/pharma-client-predictive-maintenance/) | Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation (75 to 80% detection) + unsupervised Isolation Forest layer. Not deployed to production. | `Scikit-learn` `FastAPI` `Docker` |
 
 ### Academic
 
-| | Project | Summary | Stack |
+| Status | Project | Summary | Stack |
 |---|---|---|---|
-| 🟢 | [**COVID X-Ray Classification**](projects/covid-xray-classification/) | 42K chest X-rays, 4-class CNN with Grad-CAM interpretability + full MLOps infrastructure. | `PyTorch` `Keras` `Streamlit` `DVC` |
-| 🟡 | [**MLOps Pipeline**](projects/mlops-pipeline/) | Full MLOps stack from scratch, 4-phase roadmap. Phase 3/4 in progress. | `FastAPI` `Kubernetes` `MLflow` `Evidently` |
+| Complete | [**COVID X-Ray Classification**](projects/covid-xray-classification/) | 42K chest X-rays, 4-class CNN with Grad-CAM interpretability + full MLOps infrastructure. | `PyTorch` `Keras` `Streamlit` `DVC` |
+| In progress | [**MLOps Pipeline**](projects/mlops-pipeline/) | Full MLOps stack from scratch, 4-phase roadmap. Phase 3/4 in progress. | `FastAPI` `Kubernetes` `MLflow` `Evidently` |
 
 ### Personal
 
-| | Project | Summary | Stack |
+| Status | Project | Summary | Stack |
 |---|---|---|---|
-| 🟡 | **Légifrance RAG** (in progress) | Hand-built retrieval over French legal texts, no framework: multilingual-e5-large embeddings, Qdrant in Docker. Personal project, no public code yet. | `Python` `Qdrant` `Docker` |
-| 🔵 | [**Claude Code Harness**](https://steven-moire.github.io/portfolio_moire_steven/projects/claude-harness/) | Claude Code setup: rules, guardrail hooks, curated agents & skills. | `Claude Code` `Node.js` `Git hooks` |
-| 🔵 | [**ms-template**](projects/ms-template/) | Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture. | `Flask` `Docker` `Bash` |
-| 🟡 | [**Nutrition App**](projects/nutrition-app/) | Meal planning app: 345 ingredients (CIQUAL), 64 recipes, nutritional tracking. | `Flask` `Python` |
+| In progress | **Légifrance RAG** (in progress) | Hand-built retrieval over French legal texts, no framework: multilingual-e5-large embeddings, Qdrant in Docker. Personal project, no public code yet. | `Python` `Qdrant` `Docker` |
+| Tooling | [**Claude Code Harness**](https://steven-moire.github.io/portfolio_moire_steven/projects/claude-harness/) | Claude Code setup: rules, guardrail hooks, curated agents & skills. | `Claude Code` `Node.js` `Git hooks` |
+| Template | [**ms-template**](projects/ms-template/) | Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture. | `Flask` `Docker` `Bash` |
+| In progress | [**Nutrition App**](projects/nutrition-app/) | Meal planning app: 345 ingredients (CIQUAL), 64 recipes, nutritional tracking. | `Flask` `Python` |
 
-*🟢 Production / Complete · 🧪 Proof of concept · 🟡 In progress · 🔵 Template / Tooling*
 
 ---
 
 ## Contact
 
-- 📧 [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
-- 💼 [LinkedIn · Steven Moire Bordier](https://www.linkedin.com/in/steven-moirebordier-490556108/)
-- 📅 Open to AI Engineer · ML Engineer · MLOps roles · **Available now**
+- [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
+- [LinkedIn · Steven Moire Bordier](https://www.linkedin.com/in/steven-moirebordier-490556108/)
+- Open to AI Engineer · ML Engineer · MLOps roles · **Available now**
 
 ---
 
-<sub>Jekyll + Chirpy · GitHub Pages · 🇫🇷 France · Theme: MIT © Cotes Chung · content & site code: © Steven Moire Bordier, see [NOTICE](NOTICE.md)</sub>
+<sub>Jekyll + Chirpy · GitHub Pages · France France · Theme: MIT  Cotes Chung · content & site code:  Steven Moire Bordier, see [NOTICE](NOTICE.md)</sub>
