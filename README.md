@@ -68,7 +68,7 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 |---|---|---|---|
 | Production | [**AI Document Generation**](projects/pharma-client-doc-generation/) | DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production, two business users. Kubernetes, multi-region. | `Python` `FastAPI` `Playwright` `K8s` |
 | Production | [**GxP Document Intelligence**](projects/pharma-client-gxp-document-intelligence/) | Semantic clustering of several hundred GxP documents: multilingual embeddings + HDBSCAN, local Mistral 7B with structured JSON output. 6 microservices, in production. | `HuggingFace` `HDBSCAN` `Mistral 7B` |
-| PoC | [**Predictive Maintenance**](projects/pharma-client-predictive-maintenance/) | Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation (75 to 80% detection) + unsupervised Isolation Forest layer. Not deployed to production. | `Scikit-learn` `FastAPI` `Docker` |
+| PoC | [**Predictive Maintenance**](projects/pharma-client-predictive-maintenance/) | Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation + unsupervised Isolation Forest layer. Not deployed to production. | `Scikit-learn` `FastAPI` `Docker` |
 
 ### Academic
 

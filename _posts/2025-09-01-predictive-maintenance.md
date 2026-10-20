@@ -2,8 +2,8 @@
 layout: post
 title: "Predictive Maintenance: Industrial Cold Chain (PoC)"
 title_fr: "Maintenance prédictive : chaîne du froid industrielle"
-description: "Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation (75 to 80% detection) + unsupervised Isolation Forest layer. Not deployed to production."
-description_fr: "Preuve de concept de détection d'anomalies sur 15 équipements de chaîne du froid : règles pondérées issues de la documentation équipements (75 à 80 % de détection) + couche Isolation Forest non supervisée. Non déployée en production."
+description: "Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation + unsupervised Isolation Forest layer. Not deployed to production."
+description_fr: "Preuve de concept de détection d'anomalies sur 15 équipements de chaîne du froid : règles pondérées issues de la documentation équipements + couche Isolation Forest non supervisée. Non déployée en production."
 date: 2025-09-01 09:00:00 +0100
 categories: [Projet_Data, Professionnel]
 tags: [Python, Scikit-learn, FastAPI, Docker, Kubernetes, Isolation-Forest, PoC, GxP, Détection-anomalies, Système-à-règles, Apprentissage-non-supervisé]
@@ -74,9 +74,9 @@ The proof of concept covered **15 cold-chain units**, which naturally split into
 
 ## How the Approach Evolved
 
-**1. Machine learning, then deep learning.** Both were tried first. Results were disappointing: a small dataset (several thousand temporal readings), rare labeled anomalies, and models whose alerts were hard to explain in a regulated environment, where "the model flagged this" is not an acceptable root cause for a maintenance alert.
+**1. Machine learning, then deep learning.** Both were tried first, with disappointing results.
 
-**2. A weighted rule system built from the technical documentation.** Instead of learning what an anomaly looks like, the equipment manuals already described it. Each documented condition became a weighted rule; the rules combine into a **score out of 100**, and **score ranges map to anomaly categories**. This system detected **75 to 80% of anomalies**, and every alert can be traced back to the documented rule that triggered it.
+**2. A weighted rule system built from the technical documentation.** The rules were built through a statistical analysis of the equipment technical documentation. Each documented condition became a weighted rule; the rules combine into a **score out of 100**, and **score ranges map to anomaly categories**. Every alert can be traced back to the documented rule that triggered it. Visual inspection of the curves could separate the normal cycle from deviations, but a deviation is not always an anomaly: opening a door, for example, causes a spike that belongs to normal operation.
 
 **3. An unsupervised Isolation Forest layer on top.** Rules only catch what the documentation anticipates. An Isolation Forest layer, unsupervised so it needs no labels, was added on top of the rule score to surface unusual patterns the rules do not describe.
 
@@ -99,8 +99,7 @@ The proof of concept covered **15 cold-chain units**, which naturally split into
 |---|---|
 | Scope | 15 cold-chain units |
 | Behavioral families | 3 (cycling, cold storage, isothermal) |
-| Dataset size | Several thousand temporal readings |
-| Detection rate | 75 to 80% (weighted rule system) |
+| Alert traceability | Each alert linked to the documented rule that triggered it |
 | Status | Proof of concept, not deployed to production |
 
 </div>
@@ -169,9 +168,9 @@ La preuve de concept portait sur **15 équipements de chaîne du froid**, répar
 
 ## Comment l'approche a évolué
 
-**1. Machine learning, puis deep learning.** Les deux ont été essayés en premier. Résultats décevants : un dataset limité (plusieurs milliers de relevés temporels), des anomalies labellisées rares, et des modèles dont les alertes étaient difficiles à expliquer dans un environnement réglementé, où "le modèle a signalé ça" n'est pas une cause racine acceptable pour une alerte de maintenance.
+**1. Machine learning, puis deep learning.** Les deux ont été essayés en premier, avec des résultats décevants.
 
-**2. Un système de règles pondérées construit à partir de la documentation technique.** Plutôt que d'apprendre à quoi ressemble une anomalie, les manuels des équipements la décrivaient déjà. Chaque condition documentée est devenue une règle pondérée ; les règles se combinent en un **score sur 100**, et des **plages de score correspondent aux catégories d'anomalies**. Ce système détectait **75 à 80 % des anomalies**, et chaque alerte se rattache à la règle documentée qui l'a déclenchée.
+**2. Un système de règles pondérées construit à partir de la documentation technique.** Les règles ont été construites par un travail statistique sur la documentation technique des équipements. Chaque condition documentée est devenue une règle pondérée ; les règles se combinent en un **score sur 100**, et des **plages de score correspondent aux catégories d'anomalies**. Chaque alerte se rattache à la règle documentée qui l'a déclenchée. À l'œil, on distinguait sur les courbes le cycle normal des écarts, mais un écart n'est pas toujours une anomalie : une ouverture de porte, par exemple, provoque un pic qui relève du fonctionnement normal.
 
 **3. Une couche Isolation Forest non supervisée par-dessus.** Les règles ne voient que ce que la documentation anticipe. Une couche Isolation Forest, non supervisée donc sans besoin de labels, a été ajoutée par-dessus le score des règles pour faire ressortir les comportements inhabituels qu'elles ne décrivent pas.
 
@@ -194,8 +193,7 @@ La preuve de concept portait sur **15 équipements de chaîne du froid**, répar
 |---|---|
 | Périmètre | 15 équipements de chaîne du froid |
 | Familles comportementales | 3 (cyclique, stockage froid, isotherme) |
-| Taille du dataset | Plusieurs milliers de relevés temporels |
-| Taux de détection | 75 à 80 % (système de règles pondérées) |
+| Traçabilité des alertes | Chaque alerte rattachée à la règle documentée qui l'a déclenchée |
 | Statut | Preuve de concept, non déployée en production |
 
 </div>
