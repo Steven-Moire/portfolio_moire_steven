@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "E-Learning Platform Prototype"
+title_fr: "Prototype de plateforme E-Learning gamifiée"
+description: "2-week sprint project: design and pitch a gamified e-learning platform for a mixed team (Web3, cybersecurity, data)."
+description_fr: "Projet sprint sur 2 semaines : concevoir et pitcher une plateforme e-learning gamifiée au sein d'une équipe pluridisciplinaire (Web3, cybersécurité, data)."
 date: 2023-10-19 9:00:00 +0300
 categories: [Projet_Data, Ecole]
 tags: [Figma, Prototypage, UX-design, Pitch-deck]

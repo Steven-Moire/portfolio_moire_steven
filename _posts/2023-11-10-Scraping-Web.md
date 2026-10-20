@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Python Scraper: Job Listings (Waalaxy Clone)"
+title_fr: "Scraper Python : Offres d'emploi (clone Waalaxy)"
+description: "School project: build a minimal clone of Waalaxy (a LinkedIn prospecting tool)."
+description_fr: "Projet scolaire : construire un clone minimal de Waalaxy (outil de prospection LinkedIn)."
 date: 2023-11-10 9:00:00 +0300
 categories: [Projet_Data, Ecole]
 tags: [Python, Scraping, BeautifulSoup, CSV, SQL]

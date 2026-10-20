@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "GxP Document Intelligence: Semantic Clustering & Local LLM"
+title_fr: "GxP Document Intelligence : clustering sémantique et LLM local"
+description: "Semantic clustering of several hundred GxP documents: multilingual embeddings + HDBSCAN, local Mistral 7B with structured JSON output. 6 microservices, in production."
+description_fr: "Clustering sémantique de plusieurs centaines de documents GxP : embeddings multilingues + HDBSCAN, Mistral 7B local avec sortie JSON structurée. 6 microservices, en production."
 date: 2026-01-15 09:00:00 +0100
 categories: [Projet_Data, Professionnel]
 tags: [Python, NLP, HuggingFace, HDBSCAN, Clustering, Embeddings, LLM, Mistral, FastAPI, Flask, Docker, Kubernetes, CI-CD, GxP, Sortie-structurée, On-premise]
@@ -21,9 +24,9 @@ redirect_from:
 
 ## Context
 
-A regulated industrial site had accumulated several hundred Standard Operating Procedures (SOPs) and work instructions across multiple GxP document management systems. Over time, documents had diverged, duplicated, and become inconsistent: both a compliance risk and a maintenance burden.
+A regulated industrial site had accumulated several hundred Standard Operating Procedures (SOPs) and work instructions across multiple GxP document management systems. Some of them might overlap or duplicate each other, but nobody knew: that is exactly what we were trying to find out, because checking it by hand is long and costly.
 
-Objective: identify redundant documents, surface clusters of similar procedures, and generate a rationalization proposal that quality teams could act on.
+Objective: first, find out whether we could determine which documents could be merged together.
 
 **The hard constraint: 100% on-premise.** No document could leave the closed network. Every model had to run on local infrastructure: no OpenAI API, no HuggingFace Inference Endpoints, no external calls of any kind.
 
@@ -73,7 +76,7 @@ Objective: identify redundant documents, surface clusters of similar procedures,
 
 The pipeline runs as **6 Python microservices** (FastAPI / Flask): data, embeddings, LLM, quality API, quality app and dashboard. There is no vector database, no retrieval step and no tool calling: embeddings feed the clustering, and the LLM turns each cluster into a structured JSON proposal.
 
-The LLM (Mistral 7B, downloaded from Hugging Face) is called by the other microservices through an internal API. It is **not part of the production deployment**: no production pod hosts it. In production, the tool is used by one quality specialist.
+The LLM (Mistral 7B, downloaded from Hugging Face) is called by the other microservices through an internal API. It is **not part of the production deployment**: no production pod hosts it.
 
 ---
 
@@ -91,7 +94,7 @@ HDBSCAN:
 
 ### Why `multilingual-e5-large`
 
-The document corpus mixed French technical procedures with English standards (ISO references, supplier specifications). A monolingual embedding model would have failed to cluster semantically similar content written in different languages. `multilingual-e5-large` is a strong multilingual model for cross-lingual semantic similarity and runs efficiently on a local GPU.
+The corpus could mix internal documents written in French and in English. A monolingual embedding model would have failed to cluster semantically similar content written in different languages. `multilingual-e5-large` is a strong multilingual model for cross-lingual semantic similarity and runs efficiently on a local GPU.
 
 ### Why Mistral 7B Instruct (4-bit quantized)
 
@@ -109,7 +112,6 @@ The document corpus mixed French technical procedures with English standards (IS
 | Document extraction | Python (PDF/DOCX parsing) |
 | Services | 6 Python microservices (FastAPI / Flask) |
 | Infrastructure | Docker · Kubernetes (on-premise private cloud) |
-| Users | One quality specialist (production) |
 | Quality | 812 unit tests · blocking coverage gate ≥ 70% in CI |
 | CI/CD | GitHub Actions · SonarQube · Checkmarx |
 
@@ -136,9 +138,9 @@ The whole pipeline (embedding → clustering → structured LLM synthesis) runs 
 
 ## Contexte
 
-Un site industriel réglementé avait accumulé plusieurs centaines de SOPs (Standard Operating Procedures) et modes opératoires à travers plusieurs systèmes de gestion documentaire GxP. Au fil du temps, les documents avaient divergé, été dupliqués et présentaient des incohérences : à la fois un risque de conformité et un problème de maintenance.
+Un site industriel réglementé avait accumulé plusieurs centaines de SOPs (Standard Operating Procedures) et modes opératoires à travers plusieurs systèmes de gestion documentaire GxP. Certains pouvaient se recouper ou faire doublon, mais on n'en savait rien : c'était justement ce qu'on cherchait à déterminer, car le faire à la main est long et coûteux.
 
-Objectif : identifier les documents redondants, faire émerger des clusters de procédures similaires, et générer une proposition de rationalisation que les équipes qualité pourraient exploiter.
+Objectif : voir déjà s'il était possible de déterminer quels documents pouvaient être fusionnés entre eux.
 
 **Contrainte forte : 100% on-premise.** Aucun document ne pouvait quitter le réseau fermé. Chaque modèle devait tourner sur l'infrastructure locale : pas d'API OpenAI, pas d'HuggingFace Inference Endpoints, aucun appel externe.
 
@@ -188,7 +190,7 @@ Objectif : identifier les documents redondants, faire émerger des clusters de p
 
 Le pipeline tourne sous forme de **6 microservices Python** (FastAPI / Flask) : données, embeddings, LLM, API qualité, application qualité et dashboard. Pas de base vectorielle, pas d'étape de retrieval, pas de tool calling : les embeddings alimentent le clustering, et le LLM transforme chaque cluster en proposition JSON structurée.
 
-Le LLM (Mistral 7B, téléchargé depuis Hugging Face) est appelé par les autres microservices via une API interne. Il **ne fait pas partie du déploiement de production** : aucun pod de production ne l'héberge. En production, l'outil est utilisé par une personne de l'équipe qualité.
+Le LLM (Mistral 7B, téléchargé depuis Hugging Face) est appelé par les autres microservices via une API interne. Il **ne fait pas partie du déploiement de production** : aucun pod de production ne l'héberge.
 
 ---
 
@@ -206,7 +208,7 @@ HDBSCAN :
 
 ### Pourquoi `multilingual-e5-large`
 
-Le corpus mixait des procédures techniques françaises et des normes anglaises (références ISO, specs fournisseurs). Un modèle d'embeddings monolingue aurait échoué à clustériser du contenu sémantiquement similaire écrit dans des langues différentes. `multilingual-e5-large` est un modèle multilingue solide pour la similarité sémantique cross-linguale et tourne efficacement sur GPU local.
+Le corpus pouvait mélanger des documents internes rédigés en français et en anglais. Un modèle d'embeddings monolingue aurait échoué à clustériser du contenu sémantiquement similaire écrit dans des langues différentes. `multilingual-e5-large` est un modèle multilingue solide pour la similarité sémantique cross-linguale et tourne efficacement sur GPU local.
 
 ### Pourquoi Mistral 7B Instruct (quantisé 4-bit)
 
@@ -224,7 +226,6 @@ La quantification 4-bit tient confortablement dans la mémoire GPU locale dispon
 | Extraction documents | Python (parsing PDF/DOCX) |
 | Services | 6 microservices Python (FastAPI / Flask) |
 | Infrastructure | Docker · Kubernetes (cloud privé on-premise) |
-| Utilisateurs | Une personne de l'équipe qualité (production) |
 | Qualité | 812 tests unitaires · seuil de couverture bloquant ≥ 70 % en CI |
 | CI/CD | GitHub Actions · SonarQube · Checkmarx |
 

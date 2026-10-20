@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Predictive Maintenance: Industrial Cold Chain (PoC)"
+title_fr: "Maintenance prédictive : chaîne du froid industrielle"
+description: "Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation (75 to 80% detection) + unsupervised Isolation Forest layer. Not deployed to production."
+description_fr: "Preuve de concept de détection d'anomalies sur 15 équipements de chaîne du froid : règles pondérées issues de la documentation équipements (75 à 80 % de détection) + couche Isolation Forest non supervisée. Non déployée en production."
 date: 2025-09-01 09:00:00 +0100
 categories: [Projet_Data, Professionnel]
 tags: [Python, Scikit-learn, FastAPI, Docker, Kubernetes, Isolation-Forest, PoC, GxP, Détection-anomalies, Système-à-règles, Apprentissage-non-supervisé]

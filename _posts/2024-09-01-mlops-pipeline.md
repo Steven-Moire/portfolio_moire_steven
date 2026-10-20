@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "MLOps Pipeline: Full Stack from Scratch"
+title_fr: "Pipeline MLOps : Stack complète from scratch"
+description: "Full MLOps stack from scratch: 4-phase roadmap. Phase 3/4 in progress."
+description_fr: "Stack MLOps complète from scratch : roadmap 4 phases. Phase 3/4 en cours."
 date: 2024-09-01 09:00:00 +0100
 categories: [Projet_Data, Ecole]
 tags: [Python, FastAPI, MLflow, DVC, Docker, Kubernetes, GitHub-Actions, Evidently, Prometheus, Grafana, MLOps, Reproductibilité]

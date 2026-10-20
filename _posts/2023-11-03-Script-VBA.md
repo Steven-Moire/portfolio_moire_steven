@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "VBA Automation: Survey Data Processing"
+title_fr: "Automatisation VBA : Traitement de données d'enquête"
+description: "A food waste awareness survey generated text responses on a 5-point scale (\"not at all\" → \"enormously\")."
+description_fr: "Un questionnaire sur la sensibilisation au gaspillage générait des réponses textuelles sur une échelle à 5 niveaux (\"pas du tout\" → \"énormément\")."
 date: 2023-11-03 9:00:00 +0300
 categories: [Projet_Data, Personnel]
 tags: [Excel, VBA, Automatisation, Nettoyage-de-données]

@@ -16,6 +16,7 @@ The [LICENSE](LICENSE) file (MIT, Cotes Chung) covers:
 - `_includes/js-selector.html`: copy of the theme file, modified by me to load the language toggle
   and the cookie consent script
 - `_includes/footer.html`: copy of the theme file, modified by me to add the "Cookies" settings link
+- `_layouts/home.html`: copy of the theme file, modified by me to show bilingual titles and summaries on the home cards
 
 The theme gem and the `assets/lib` submodule
 ([chirpy-static-assets](https://github.com/cotes2020/chirpy-static-assets)) keep their own licenses.

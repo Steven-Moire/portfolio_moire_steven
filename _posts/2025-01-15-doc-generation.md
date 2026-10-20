@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "AI Document Generation Pipeline"
+title_fr: "Pipeline de génération documentaire IA"
+description: "DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production, two business users. Kubernetes, multi-region."
+description_fr: "Pipeline DOCX → Excel pilotant le LLM interne via Playwright. Gain de performance significatif mesuré en production, deux utilisateurs métier. Kubernetes multi-région."
 date: 2025-01-15 09:00:00 +0100
 categories: [Projet_Data, Professionnel]
 tags: [Python, FastAPI, Docker, Kubernetes, LLM, CI-CD, Microservices, Scraping, Playwright, GxP, Feedback-utilisateur, Prompt-engineering]

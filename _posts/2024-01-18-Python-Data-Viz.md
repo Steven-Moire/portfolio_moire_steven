@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Python Data Analysis: E-Commerce Behavior"
+title_fr: "Analyse de données Python : Comportement e-commerce"
+description: "Client: Book1, an e-commerce company. Objective: analyze user behavior on their website to understand conversion rates and identify drop-off points in the purchase funnel."
+description_fr: "Client : Book1, une entreprise e-commerce. Objectif : analyser le comportement des utilisateurs sur leur site web pour comprendre les taux de conversion et identifier les points de friction dans l'entonnoir d'achat."
 date: 2024-01-18 9:00:00 +0300
 categories: [Projet_Data, Ecole]
 tags: [Python, Pandas, Plotly, Dash, Data-Viz, Analyse-de-données]

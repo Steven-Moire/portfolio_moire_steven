@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "ms-template: Reusable Microservices Boilerplate"
+title_fr: "ms-template : Boilerplate microservices réutilisable"
+description: "Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture."
+description_fr: "Boilerplate microservices réutilisable : dashboard, logging centralisé, architecture SOLID."
 date: 2024-10-01 09:00:00 +0100
 categories: [Projet_Data, Personnel]
 tags: [Python, Flask, Docker, Bash, Architecture-logicielle, SOLID, Microservices, Logging-centralisé, Documentation]

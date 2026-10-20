@@ -310,3 +310,6 @@ scripts/
 
 # Archive source portfolio (zip d'origine)
 *.zip
+
+# Jekyll build output (jekyll serve / build in the repo root)
+_site/

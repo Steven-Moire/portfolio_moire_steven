@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "COVID X-Ray Classification: MLOps Pipeline"
+title_fr: "Classification radiographies COVID : Pipeline MLOps"
+description: "42K chest X-rays, 4-class CNN with Grad-CAM + full MLOps infrastructure (9 services)."
+description_fr: "42 000 radios thoraciques, CNN 4 classes avec Grad-CAM + infrastructure MLOps complète (9 services)."
 date: 2024-05-01 09:00:00 +0100
 categories: [Projet_Data, Ecole]
 tags: [Python, PyTorch, Keras, Streamlit, DVC, MLflow, Docker, Kubernetes, FastAPI, MinIO, Grad-CAM, MLOps, Computer-Vision, Interprétabilité]

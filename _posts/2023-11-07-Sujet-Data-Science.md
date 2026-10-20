@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Experimenting with Generative AI Tools (2023)"
+title_fr: "Expérimentation des outils GenAI (2023)"
+description: "Early 2023, before generative AI tools were mainstream in professional settings."
+description_fr: "Début 2023, avant que les outils d'IA générative ne deviennent courants en contexte professionnel."
 date: 2023-11-07 9:00:00 +0300
 categories: [Projet_Data, Ecole]
 tags: [IA-générative, Prompt-engineering, Data-storytelling, Présentation]

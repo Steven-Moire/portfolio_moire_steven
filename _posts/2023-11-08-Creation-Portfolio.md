@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Building This Portfolio"
+title_fr: "Construction de ce portfolio"
+description: "2023, searching for an apprenticeship. No web development background."
+description_fr: "2023, en recherche d'alternance. Pas de background en développement web."
 date: 2023-11-08 9:00:00 +0300
 categories: [Projet_Data, Personnel]
 tags: [Jekyll, GitHub, Développement-Web, GitHub-Actions]

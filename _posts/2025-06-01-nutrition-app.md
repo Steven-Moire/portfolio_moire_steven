@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Nutrition App: Meal Planning & Nutritional Tracking"
+title_fr: "Application Nutrition : Planification repas & suivi nutritionnel"
+description: "Meal planning app: 345 CIQUAL ingredients, 64 recipes, nutritional tracking."
+description_fr: "Application de planification repas : 345 ingrédients CIQUAL, 64 recettes, suivi nutritionnel."
 date: 2025-06-01 09:00:00 +0100
 categories: [Projet_Data, Personnel]
 tags: [Python, Flask, JSON, CIQUAL, Modélisation-de-données, Planification-repas]

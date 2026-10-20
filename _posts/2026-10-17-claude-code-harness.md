@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Claude Code Harness: Working With an AI Coding Agent"
+title_fr: "Harness Claude Code : Travailler avec un agent de code IA"
+description: "Claude Code setup: rules, guardrail hooks, curated agents & skills."
+description_fr: "Configuration Claude Code : règles, hooks garde-fous, agents et skills curés."
 date: 2026-10-17 09:00:00 +0200
 categories: [Projet_Data, Personnel]
 tags: [Claude-Code, Hooks, Sécurité, Architecture-logicielle, Git]
