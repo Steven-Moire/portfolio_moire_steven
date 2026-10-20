@@ -84,7 +84,7 @@ The LLM (Mistral 7B, downloaded from Hugging Face) is called by the other micros
 
 ### Why HDBSCAN over K-Means
 
-K-Means requires you to specify `k` (the number of clusters) upfront. In a document rationalization context, the number of meaningful topic groups is unknown and should emerge from the data, not be imposed on it.
+K-Means requires you to specify `k` (the number of clusters) upfront. In a document rationalization context, the number of meaningful topic groups is unknown and has to be found in the data.
 
 HDBSCAN:
 - Discovers clusters of arbitrary shape and density
@@ -198,7 +198,7 @@ Le LLM (Mistral 7B, téléchargé depuis Hugging Face) est appelé par les autre
 
 ### Pourquoi HDBSCAN et pas K-Means
 
-K-Means exige de spécifier `k` à l'avance. Dans un contexte de rationalisation documentaire, le nombre de groupes thématiques pertinents est inconnu et doit émerger des données, pas être imposé.
+K-Means exige de spécifier `k` à l'avance. Dans un contexte de rationalisation documentaire, le nombre de groupes thématiques pertinents est inconnu et doit être trouvé dans les données.
 
 HDBSCAN :
 - Découvre des clusters de forme et densité arbitraires

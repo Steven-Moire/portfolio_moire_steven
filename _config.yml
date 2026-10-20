@@ -16,12 +16,11 @@ timezone: Europe/Paris
 
 title: Steven Moire Bordier # the main title
 
-tagline: AI Engineer · ML Engineer · MLOps · available now
+tagline: ML Engineer · Data Scientist · AI Engineer · available now
  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  AI Engineer with 2 years in a regulated pharmaceutical environment:
-  LLM document pipelines, semantic clustering, MLOps.
+  ML engineer, 2 years in regulated pharma: semantic clustering and an LLM document pipeline in production, anomaly detection PoC, MLOps (Docker, K8s, CI/CD).
 
 # Default social preview (og:image) for pages without their own image, see _includes/metadata-hook.html
 social_preview: /assets/img/social-preview.png

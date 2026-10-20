@@ -40,7 +40,7 @@ Topics covered: role of the Data Analyst, data analysis in patient health monito
 
 ### What it shows
 
-Early familiarity with generative AI tooling when it was still genuinely experimental. At the time, figuring out how to prompt these tools, chain their outputs, and integrate them into a coherent presentation required actual problem-solving, not just clicking "generate."
+Early familiarity with generative AI tooling when it was still genuinely experimental. At the time, figuring out how to prompt these tools, chain their outputs, and integrate them into a coherent presentation required actual problem-solving.
 
 *Looking back: this is where the instinct to reach for AI tools as a first-class option came from.*
 
@@ -77,7 +77,7 @@ Sujets traités : rôle du Data Analyst, analyse de données dans le suivi de la
 
 ### Ce que ça montre
 
-Familiarisation précoce avec les outils GenAI quand ils étaient encore genuinement expérimentaux. À l'époque, savoir prompter ces outils, chaîner leurs sorties et les intégrer dans une présentation cohérente demandait une vraie résolution de problèmes, pas juste cliquer sur "générer".
+Familiarisation précoce avec les outils GenAI quand ils étaient encore véritablement expérimentaux. À l'époque, savoir prompter ces outils, chaîner leurs sorties et les intégrer dans une présentation cohérente demandait une vraie résolution de problèmes.
 
 *Avec le recul : c'est là qu'est né le réflexe de considérer les outils IA comme option de premier rang.*
 

@@ -1,7 +1,7 @@
 > *"Ancien enseignant reconverti dans la data, parce que savoir faire, c'est bien. Savoir expliquer pourquoi, c'est mieux."*
 
 # Steven Moire Bordier
-### AI Engineer · ML Engineer · MLOps
+### ML Engineer · Data Scientist · AI Engineer
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](#)
@@ -16,9 +16,13 @@
 
 ## About
 
-Former teacher turned AI Engineer, with 2 years hands-on in a regulated industrial environment (GxP, pharmaceutical compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool and an LLM document-generation pipeline. Also a proof of concept for anomaly detection on cold-chain equipment.
+Former economics and management teacher who moved into data, with a pedagogical and andragogical mindset. I first went back to studying data analysis, which fits with economics and management. With my accounting and finance specialty, I had already done some SQL, and I taught students in a BTS SIO (a French IT services degree). I had also built my own PC and, when I was younger, done a bit of programming: so I went for it, because it really appealed to me and it fit with what I had done and with who I was.
 
-My background in education shapes how I approach technical work: I design for clarity, document my reasoning, and make architectural choices I can defend.
+Teaching first gives me the business side: the client or the company that hires me has a problem, and it has to be solved with performance in mind, which means effectiveness and efficiency. No point doing deep learning if a VBA macro is enough.
+
+2 years as an apprentice in an international pharmaceutical group, in a regulated industrial environment (GxP, compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool and an LLM document-generation pipeline. Also a proof of concept for anomaly detection on cold-chain equipment.
+
+I am looking for a data scientist role, rather focused on model training. But during my apprenticeship I loved the whole architecture side, so I am also looking at AI engineer roles.
 
 Status: Apprenticeship completed · Available now
 
@@ -42,7 +46,11 @@ Status: Apprenticeship completed · Available now
 
 ## Teaching & Knowledge Sharing
 
-Before data, I taught economics and management for 2 years, and I still teach, to adults now: presentations to teams on what AI is and what it is not, short workshops on computer vision and digital twins, and at group level two prompt-optimization workshops (~50 participants) and a webinar on Chinese LLMs (110 participants). The same habit shaped my projects: the performance gain of the document-generation pipeline came from user feedback, not from the model.
+Before data, I taught economics and management for 2 years, and I keep passing knowledge on: presentations to teams on what AI is and what it is not, short workshops on computer vision and digital twins, and at group level two prompt-optimization workshops (~50 participants) and a webinar on Chinese LLMs (110 participants).
+
+These are complex notions, sometimes disconnected from our everyday reality. I think we are living through a turning point, like the one we went through with the Internet. The goal is to support people, help them and make things understandable, because a tool that is not understood will not be adopted, and that can cause problems. It comes back to the business view.
+
+What struck me most was with high school students (10th grade) on internships: we talk about AI, but for them it stops at GPT and the technology is only 10 years old, when it actually dates back to the 1950s and is a rich field where you can do amazing things.
 
 ---
 
@@ -91,7 +99,7 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 - [steven.bordier@gmail.com](mailto:steven.bordier@gmail.com)
 - [LinkedIn · Steven Moire Bordier](https://www.linkedin.com/in/steven-moirebordier-490556108/)
-- Open to AI Engineer · ML Engineer · MLOps roles · **Available now**
+- Open to ML Engineer · Data Scientist · AI Engineer roles · **Available now**
 
 ---
 
