@@ -42,7 +42,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 | Status | Project | Summary | Stack |
 |---|---|---|---|
-| Complete | [**COVID X-Ray Classification**]({{ '/projects/covid-xray/' | relative_url }}) | 4-class CNN (Keras) on 42K chest X-rays with Grad-CAM: 88% accuracy. Team project: 8 containerized services, CI/CD, Prometheus and Grafana monitoring. | Keras · Streamlit · DVC · Grafana |
+| Complete | [**COVID X-Ray Classification**]({{ '/projects/covid-xray/' | relative_url }}) | 4-class CNN (Keras) on chest X-rays with Grad-CAM: 88% accuracy on a held-out test set. Team project: 8 containerized services, CI/CD, Prometheus and Grafana monitoring. | Keras · Streamlit · DVC · Grafana |
 
 ---
 
@@ -77,7 +77,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 | Statut | Projet | Résumé | Stack |
 |---|---|---|---|
-| Terminé | [**Classification radio COVID**]({{ '/projects/covid-xray/' | relative_url }}) | CNN 4 classes (Keras) sur 42 000 radios thoraciques avec Grad-CAM : 88 % d'accuracy. Projet d'équipe : 8 services conteneurisés, CI/CD, monitoring Prometheus et Grafana. | Keras · Streamlit · DVC · Grafana |
+| Terminé | [**Classification radio COVID**]({{ '/projects/covid-xray/' | relative_url }}) | CNN 4 classes (Keras) sur radios thoraciques avec Grad-CAM : 88 % d'accuracy sur un jeu de test. Projet d'équipe : 8 services conteneurisés, CI/CD, monitoring Prometheus et Grafana. | Keras · Streamlit · DVC · Grafana |
 
 ---
 

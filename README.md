@@ -82,7 +82,7 @@ What struck me most was with high school students (10th grade) on internships: w
 
 | Status | Project | Summary | Stack |
 |---|---|---|---|
-| Complete | [**COVID X-Ray Classification**](projects/covid-xray-classification/) | 4-class CNN (Keras) on 42K chest X-rays with Grad-CAM: 88% accuracy. Team project: 8 containerized services, CI/CD, Prometheus and Grafana monitoring. | `Keras` `Streamlit` `DVC` `Grafana` |
+| Complete | [**COVID X-Ray Classification**](projects/covid-xray-classification/) | 4-class CNN (Keras) on chest X-rays with Grad-CAM: 88% accuracy on a held-out test set. Team project: 8 containerized services, CI/CD, Prometheus and Grafana monitoring. | `Keras` `Streamlit` `DVC` `Grafana` |
 
 ### Personal
 
