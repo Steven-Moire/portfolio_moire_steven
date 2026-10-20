@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false  # PAUSED ms-template: GitHub repo link returns 404, content to verify (atlas?)
 title: "ms-template: Reusable Microservices Boilerplate"
 title_fr: "ms-template : Boilerplate microservices réutilisable"
 description: "Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture."

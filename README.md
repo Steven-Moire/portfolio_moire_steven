@@ -83,8 +83,8 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 |---|---|---|---|
 | In progress | **Légifrance RAG** (in progress) | Hand-built retrieval over French legal texts, no framework: multilingual-e5-large embeddings, Qdrant in Docker. Personal project, no public code yet. | `Python` `Qdrant` `Docker` |
 | Tooling | [**Claude Code Harness**](https://steven-moire.github.io/portfolio_moire_steven/projects/claude-harness/) | Claude Code setup: rules, guardrail hooks, curated agents & skills. | `Claude Code` `Node.js` `Git hooks` |
-| Template | [**ms-template**](projects/ms-template/) | Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture. | `Flask` `Docker` `Bash` |
 | In progress | [**Nutrition App**](projects/nutrition-app/) | Meal planning app: 345 ingredients (CIQUAL), 64 recipes, nutritional tracking. | `Flask` `Python` |
+<!-- PAUSED ms-template: GitHub repo link returns 404, content to verify (atlas?) | | Template | [**ms-template**](projects/ms-template/) | Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture. | `Flask` `Docker` `Bash` | -->
 
 
 ---

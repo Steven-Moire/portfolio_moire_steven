@@ -53,8 +53,8 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 |---|---|---|---|
 | In progress | **Légifrance RAG** (in progress) | Hand-built retrieval over French legal texts, no framework: multilingual-e5-large embeddings, Qdrant in Docker. Personal project, no public code yet. | Python · Qdrant · Docker |
 | Tooling | [**Claude Code Harness**]({{ '/projects/claude-harness/' | relative_url }}) | Claude Code setup: rules, guardrail hooks, curated agents & skills. | Claude Code · Node.js · Git hooks |
-| Template | [**ms-template**]({{ '/projects/ms-template/' | relative_url }}) | Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture. | Flask · Docker · Bash |
 | In progress | [**Nutrition App**]({{ '/projects/nutrition-app/' | relative_url }}) | Meal planning app: 345 CIQUAL ingredients, 64 recipes, nutritional tracking. | Flask · Python |
+{% comment %}PAUSED ms-template: GitHub repo link returns 404, content to verify (atlas?) | | Template | [**ms-template**]({{ '/projects/ms-template/' | relative_url }}) | Reusable microservices boilerplate: dashboard, centralized logging, SOLID architecture. | Flask · Docker · Bash |{% endcomment %}
 
 ---
 
@@ -90,8 +90,8 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 |---|---|---|---|
 | En cours | **RAG Légifrance** (en cours) | Recherche documentaire sur les textes juridiques français codée à la main, sans framework : embeddings multilingual-e5-large, Qdrant en Docker. Projet personnel, pas encore de code public. | Python · Qdrant · Docker |
 | Outillage | [**Harness Claude Code**]({{ '/projects/claude-harness/' | relative_url }}) | Configuration Claude Code : règles, hooks garde-fous, agents et skills curés. | Claude Code · Node.js · Git hooks |
-| Template | [**ms-template**]({{ '/projects/ms-template/' | relative_url }}) | Boilerplate microservices réutilisable : dashboard, logging centralisé, architecture SOLID. | Flask · Docker · Bash |
 | En cours | [**Application Nutrition**]({{ '/projects/nutrition-app/' | relative_url }}) | Application de planification repas : 345 ingrédients CIQUAL, 64 recettes, suivi nutritionnel. | Flask · Python |
+{% comment %}PAUSED ms-template: GitHub repo link returns 404, content to verify (atlas?) | | Template | [**ms-template**]({{ '/projects/ms-template/' | relative_url }}) | Boilerplate microservices réutilisable : dashboard, logging centralisé, architecture SOLID. | Flask · Docker · Bash |{% endcomment %}
 
 ---
 
