@@ -32,7 +32,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 | Status | Project | Summary | Stack |
 |---|---|---|---|
-| Production | [**AI Document Generation**]({{ '/projects/doc-generation/' | relative_url }}) | DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production, two business users. Kubernetes, multi-region. | Python · FastAPI · Playwright · K8s |
+| Production | [**AI Document Generation**]({{ '/projects/doc-generation/' | relative_url }}) | DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production. Kubernetes, multi-region. | Python · FastAPI · Playwright · K8s |
 | Production | [**GxP Document Intelligence**]({{ '/projects/gxp-document-intelligence/' | relative_url }}) | Semantic clustering of several hundred GxP documents: multilingual embeddings + HDBSCAN, local Mistral 7B with structured JSON output. 6 microservices, in production. | HuggingFace · HDBSCAN · Mistral 7B |
 | PoC | [**Predictive Maintenance**]({{ '/projects/predictive-maintenance/' | relative_url }}) | Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation + unsupervised Isolation Forest layer. Not deployed to production. | Scikit-learn · FastAPI · Docker |
 
@@ -67,7 +67,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 | Statut | Projet | Résumé | Stack |
 |---|---|---|---|
-| Production | [**Génération documentaire IA**]({{ '/projects/doc-generation/' | relative_url }}) | Pipeline DOCX → Excel pilotant le LLM interne via Playwright. Gain de performance significatif mesuré en production, deux utilisateurs métier. Kubernetes multi-région. | Python · FastAPI · Playwright · K8s |
+| Production | [**Génération documentaire IA**]({{ '/projects/doc-generation/' | relative_url }}) | Pipeline DOCX → Excel pilotant le LLM interne via Playwright. Gain de performance significatif mesuré en production. Kubernetes multi-région. | Python · FastAPI · Playwright · K8s |
 | Production | [**GxP Document Intelligence**]({{ '/projects/gxp-document-intelligence/' | relative_url }}) | Clustering sémantique de plusieurs centaines de documents GxP : embeddings multilingues + HDBSCAN, Mistral 7B local avec sortie JSON structurée. 6 microservices, en production. | HuggingFace · HDBSCAN · Mistral 7B |
 | PoC | [**Maintenance prédictive**]({{ '/projects/predictive-maintenance/' | relative_url }}) | Preuve de concept de détection d'anomalies sur 15 équipements de chaîne du froid : règles pondérées issues de la documentation équipements + couche Isolation Forest non supervisée. Non déployée en production. | Scikit-learn · FastAPI · Docker |
 

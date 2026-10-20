@@ -33,7 +33,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 ## Background
 
-Former teacher turned AI Engineer, with 2 years hands-on in a regulated industrial environment (GxP, pharmaceutical compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool and an LLM document-generation pipeline used by two business users. Also a proof of concept for anomaly detection on cold-chain equipment.
+Former teacher turned AI Engineer, with 2 years hands-on in a regulated industrial environment (GxP, pharmaceutical compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool and an LLM document-generation pipeline. Also a proof of concept for anomaly detection on cold-chain equipment.
 
 My background in education shapes how I approach technical work: I design for clarity, document my reasoning, and make architectural choices I can defend.
 
@@ -104,7 +104,7 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 Ancien enseignant reconverti dans la data, avec une vraie sensibilité pédagogique qui se retrouve dans ma façon d'aborder les problèmes techniques : expliquer le *pourquoi* avant le *comment*, documenter les choix d'architecture, rendre les décisions défendables.
 
-2 ans d'alternance dans un groupe pharmaceutique international, en environnement industriel réglementé (GxP, compliance). Projets déployés en production sur un cloud privé on-premise : un outil de clustering de documents GxP, et un pipeline de génération documentaire par LLM utilisé par deux utilisateurs métier. Également une preuve de concept de détection d'anomalies sur des équipements de chaîne du froid.
+2 ans d'alternance dans un groupe pharmaceutique international, en environnement industriel réglementé (GxP, compliance). Projets déployés en production sur un cloud privé on-premise : un outil de clustering de documents GxP, et un pipeline de génération documentaire par LLM. Également une preuve de concept de détection d'anomalies sur des équipements de chaîne du froid.
 
 **Disponible immédiatement** · ouvert aux postes AI Engineer, ML Engineer, MLOps.
 

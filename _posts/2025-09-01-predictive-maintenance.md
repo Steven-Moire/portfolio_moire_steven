@@ -21,7 +21,7 @@ permalink: /projects/predictive-maintenance/
 
 ## Context
 
-The site's cold-chain equipment needed continuous monitoring to detect anomalies before failure. In a pharmaceutical environment, cold-chain failures can cause product degradation, so the business case for early detection is direct and measurable.
+The site's cold-chain equipment needed continuous monitoring to detect anomalies before failure. In a pharmaceutical environment, cold-chain failures can cause product degradation.
 
 The proof of concept covered **15 cold-chain units**, which naturally split into **3 behavioral families**:
 - Cycling: periodic temperature patterns (regular oscillation)
@@ -115,7 +115,7 @@ The proof of concept covered **15 cold-chain units**, which naturally split into
 
 ## Contexte
 
-Les équipements de chaîne du froid du site nécessitaient une surveillance continue pour détecter les anomalies avant toute défaillance. Dans un environnement pharmaceutique, une rupture de chaîne du froid peut entraîner la dégradation des produits : le business case pour la détection précoce est direct et mesurable.
+Les équipements de chaîne du froid du site nécessitaient une surveillance continue pour détecter les anomalies avant toute défaillance. Dans un environnement pharmaceutique, une rupture de chaîne du froid peut entraîner la dégradation des produits.
 
 La preuve de concept portait sur **15 équipements de chaîne du froid**, répartis naturellement en **3 familles comportementales** :
 - Cyclique : oscillation thermique périodique

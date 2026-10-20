@@ -19,7 +19,7 @@ permalink: /projects/nutrition-app/
 
 ## Context
 
-A personal project built from a practical need: planning meals for the week, tracking nutritional intake without an app that sells your data, and building on a real reference dataset (CIQUAL, the French national food composition database published by ANSES).
+A personal project built from a practical need: planning meals for the week, tracking nutritional intake, and building on a real reference dataset (CIQUAL, the French national food composition database published by ANSES).
 
 ---
 
@@ -80,7 +80,7 @@ MealPlan
 
 ## Contexte
 
-Projet personnel né d'un besoin concret : planifier les repas de la semaine, tracker les apports nutritionnels sans application qui revend les données, en s'appuyant sur un vrai dataset de référence (CIQUAL, base de composition nutritionnelle des aliments publiée par l'ANSES).
+Projet personnel né d'un besoin concret : planifier les repas de la semaine, tracker les apports nutritionnels, en s'appuyant sur un vrai dataset de référence (CIQUAL, base de composition nutritionnelle des aliments publiée par l'ANSES).
 
 ---
 
