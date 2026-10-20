@@ -42,7 +42,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 | Status | Project | Summary | Stack |
 |---|---|---|---|
-| Complete | [**COVID X-Ray Classification**]({{ '/projects/covid-xray/' | relative_url }}) | 42K chest X-rays, 4-class CNN with Grad-CAM + full MLOps infrastructure (9 services). | PyTorch · Keras · Streamlit · DVC |
+| Complete | [**COVID X-Ray Classification**]({{ '/projects/covid-xray/' | relative_url }}) | 4-class CNN (Keras) on 42K chest X-rays with Grad-CAM: 88% accuracy. Team project: 8 containerized services, CI/CD, Prometheus and Grafana monitoring. | Keras · Streamlit · DVC · Grafana |
 | In progress | [**MLOps Pipeline**]({{ '/projects/mlops-pipeline/' | relative_url }}) | Full MLOps stack from scratch: 4-phase roadmap. Phase 3/4 in progress. | FastAPI · Kubernetes · MLflow · Evidently |
 
 ---
@@ -78,7 +78,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 | Statut | Projet | Résumé | Stack |
 |---|---|---|---|
-| Terminé | [**Classification radio COVID**]({{ '/projects/covid-xray/' | relative_url }}) | 42 000 radios thoraciques, CNN 4 classes avec Grad-CAM + infrastructure MLOps complète (9 services). | PyTorch · Keras · Streamlit · DVC |
+| Terminé | [**Classification radio COVID**]({{ '/projects/covid-xray/' | relative_url }}) | CNN 4 classes (Keras) sur 42 000 radios thoraciques avec Grad-CAM : 88 % d'accuracy. Projet d'équipe : 8 services conteneurisés, CI/CD, monitoring Prometheus et Grafana. | Keras · Streamlit · DVC · Grafana |
 | En cours | [**Pipeline MLOps**]({{ '/projects/mlops-pipeline/' | relative_url }}) | Stack MLOps complète from scratch : roadmap 4 phases. Phase 3/4 en cours. | FastAPI · Kubernetes · MLflow · Evidently |
 
 ---

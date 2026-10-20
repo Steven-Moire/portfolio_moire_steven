@@ -50,9 +50,9 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 | Domain | Tools |
 |---|---|
-| **ML / DL** | Scikit-learn · Isolation Forest · PyTorch (academic) · TensorFlow/Keras (academic) · XGBoost (academic) |
+| **ML / DL** | Scikit-learn · Isolation Forest · TensorFlow/Keras (academic) · XGBoost (academic) |
 | **NLP / LLM** | HuggingFace Transformers · Mistral 7B · multilingual-e5 · HDBSCAN · structured LLM output · prompt engineering |
-| **MLOps** | MLflow · DVC · Evidently (academic) |
+| **MLOps** | MLflow · DVC · Prometheus · Grafana · Evidently (academic) |
 | **Infra / DevOps** | Docker · Kubernetes · ArgoCD · GitHub Actions · SonarQube · Checkmarx · CI/CD |
 | **Data Engineering** | Pandas · NumPy · FastAPI · Flask · Playwright · MinIO (academic) |
 | **Visualization / BI** | Power BI · Streamlit · Dash · Plotly |
@@ -74,7 +74,7 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 | Status | Project | Summary | Stack |
 |---|---|---|---|
-| Complete | [**COVID X-Ray Classification**](projects/covid-xray-classification/) | 42K chest X-rays, 4-class CNN with Grad-CAM interpretability + full MLOps infrastructure. | `PyTorch` `Keras` `Streamlit` `DVC` |
+| Complete | [**COVID X-Ray Classification**](projects/covid-xray-classification/) | 4-class CNN (Keras) on 42K chest X-rays with Grad-CAM: 88% accuracy. Team project: 8 containerized services, CI/CD, Prometheus and Grafana monitoring. | `Keras` `Streamlit` `DVC` `Grafana` |
 | In progress | [**MLOps Pipeline**](projects/mlops-pipeline/) | Full MLOps stack from scratch, 4-phase roadmap. Phase 3/4 in progress. | `FastAPI` `Kubernetes` `MLflow` `Evidently` |
 
 ### Personal

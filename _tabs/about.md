@@ -61,9 +61,9 @@ Before data, I taught economics and management for 2 years, and I still teach, t
 
 | Domain | Tools |
 |---|---|
-| **ML / DL** | Scikit-learn · Isolation Forest · PyTorch (academic) · TensorFlow/Keras (academic) · XGBoost (academic) |
+| **ML / DL** | Scikit-learn · Isolation Forest · TensorFlow/Keras (academic) · XGBoost (academic) |
 | **NLP / LLM** | HuggingFace Transformers · Mistral 7B · multilingual-e5 · HDBSCAN · structured LLM output · prompt engineering |
-| **MLOps** | MLflow · DVC · Evidently (academic) |
+| **MLOps** | MLflow · DVC · Prometheus · Grafana · Evidently (academic) |
 | **Infra / DevOps** | Docker · Kubernetes · ArgoCD · GitHub Actions · SonarQube · Checkmarx · CI/CD |
 | **Data Engineering** | Pandas · NumPy · FastAPI · Flask · Playwright · MinIO (academic) |
 | **Visualization / BI** | Power BI · Streamlit · Dash · Plotly |
@@ -130,9 +130,9 @@ Avant la data, j'ai enseigné l'économie-gestion pendant 2 ans, et je continue 
 
 | Domaine | Outils |
 |---|---|
-| **ML / DL** | Scikit-learn · Isolation Forest · PyTorch (académique) · TensorFlow/Keras (académique) · XGBoost (académique) |
+| **ML / DL** | Scikit-learn · Isolation Forest · TensorFlow/Keras (académique) · XGBoost (académique) |
 | **NLP / LLM** | HuggingFace Transformers · Mistral 7B · multilingual-e5 · HDBSCAN · sortie LLM structurée · prompt engineering |
-| **MLOps** | MLflow · DVC · Evidently (académique) |
+| **MLOps** | MLflow · DVC · Prometheus · Grafana · Evidently (académique) |
 | **Infra / DevOps** | Docker · Kubernetes · ArgoCD · GitHub Actions · SonarQube · Checkmarx · CI/CD |
 | **Data Engineering** | Pandas · NumPy · FastAPI · Flask · Playwright · MinIO (académique) |
 | **Visualisation / BI** | Power BI · Streamlit · Dash · Plotly |
