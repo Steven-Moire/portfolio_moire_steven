@@ -18,7 +18,7 @@
 
 Former economics and management teacher who moved into data, with a pedagogical and andragogical mindset. I first went back to studying data analysis, which fits with economics and management. With my accounting and finance specialty, I had already done some SQL, and I taught students in a BTS SIO (a French IT services degree). I had also built my own PC and, when I was younger, done a bit of programming: so I went for it, because it really appealed to me and it fit with what I had done and with who I was.
 
-Teaching first gives me the business side: the client or the company that hires me has a problem, and it has to be solved with performance in mind, which means effectiveness and efficiency. No point doing deep learning if a VBA macro is enough.
+My economics and management background first gives me the business side: the client or the company that hires me has a problem, and it has to be solved with performance in mind, which means effectiveness and efficiency. No point doing deep learning if a VBA macro is enough.
 
 2 years as an apprentice in an international pharmaceutical group, in a regulated industrial environment (GxP, compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool and an LLM document-generation pipeline. Also a proof of concept for anomaly detection on cold-chain equipment.
 
@@ -34,7 +34,7 @@ Status: Apprenticeship completed · Available now
 |---|---|
 | 2026 | Master's level (Bac+5), RNCP38587 *Expert en ingénierie de l'intelligence artificielle* (EQF level 7), École Liora |
 | 2026 | Machine Learning Engineer certification, Mines Paris - PSL Executive Education |
-| 2023–2024 | Bachelor Data Analyst |
+| 2023–2024 | Bachelor Data & AI (Bac+3), Headn |
 
 ## Certifications
 
@@ -60,7 +60,7 @@ What struck me most was with high school students (10th grade) on internships: w
 |---|---|
 | **ML / DL** | Scikit-learn · Isolation Forest · TensorFlow/Keras (academic) · XGBoost (academic) |
 | **NLP / LLM** | HuggingFace Transformers · Mistral 7B · multilingual-e5 · HDBSCAN · structured LLM output · prompt engineering |
-| **MLOps** | MLflow · DVC · Prometheus · Grafana · Evidently (academic) |
+| **MLOps** | MLflow · DVC · Prometheus (academic) · Grafana (academic) · Evidently (academic) |
 | **Infra / DevOps** | Docker · Kubernetes · ArgoCD · GitHub Actions · SonarQube · Checkmarx · CI/CD |
 | **Data Engineering** | Pandas · NumPy · FastAPI · Flask · Playwright · MinIO (academic) |
 | **Visualization / BI** | Power BI · Streamlit · Dash · Plotly |
@@ -74,7 +74,7 @@ What struck me most was with high school students (10th grade) on internships: w
 
 | Status | Project | Summary | Stack |
 |---|---|---|---|
-| Production | [**AI Document Generation**](projects/pharma-client-doc-generation/) | DOCX → Excel pipeline driving the internal LLM through Playwright. Significant performance gain measured in production. Kubernetes, multi-region. | `Python` `FastAPI` `Playwright` `K8s` |
+| Production | [**AI Document Generation**](projects/pharma-client-doc-generation/) | DOCX → Excel pipeline driving the internal LLM through Playwright. Kubernetes, multi-region. | `Python` `FastAPI` `Playwright` `K8s` |
 | Production | [**GxP Document Intelligence**](projects/pharma-client-gxp-document-intelligence/) | Semantic clustering of several hundred GxP documents: multilingual embeddings + HDBSCAN, local Mistral 7B with structured JSON output. 6 microservices, in production. | `HuggingFace` `HDBSCAN` `Mistral 7B` |
 | PoC | [**Predictive Maintenance**](projects/pharma-client-predictive-maintenance/) | Anomaly detection proof of concept on 15 cold-chain units: weighted rules from equipment documentation + unsupervised Isolation Forest layer. Not deployed to production. | `Scikit-learn` `FastAPI` `Docker` |
 

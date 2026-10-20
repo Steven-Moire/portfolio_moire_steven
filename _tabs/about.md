@@ -35,7 +35,7 @@ html[data-lang="fr"] .lang-block.lang-fr { display: block; }
 
 Former economics and management teacher who moved into data, with a pedagogical and andragogical mindset. I first went back to studying data analysis, which fits with economics and management. With my accounting and finance specialty, I had already done some SQL, and I taught students in a BTS SIO (a French IT services degree). I had also built my own PC and, when I was younger, done a bit of programming: so I went for it, because it really appealed to me and it fit with what I had done and with who I was.
 
-Teaching first gives me the business side: the client or the company that hires me has a problem, and it has to be solved with performance in mind, which means effectiveness and efficiency. No point doing deep learning if a VBA macro is enough.
+My economics and management background first gives me the business side: the client or the company that hires me has a problem, and it has to be solved with performance in mind, which means effectiveness and efficiency. No point doing deep learning if a VBA macro is enough.
 
 2 years as an apprentice in an international pharmaceutical group, in a regulated industrial environment (GxP, compliance). Projects shipped in production on an on-premise private cloud: a GxP document clustering tool and an LLM document-generation pipeline. Also a proof of concept for anomaly detection on cold-chain equipment.
 
@@ -51,7 +51,7 @@ I am looking for a data scientist role, rather focused on model training. But du
 |---|---|
 | 2026 | Master's level (Bac+5), RNCP38587 *Expert en ingénierie de l'intelligence artificielle* (EQF level 7), École Liora |
 | 2026 | Machine Learning Engineer certification, Mines Paris - PSL Executive Education |
-| 2023–2024 | Bachelor Data Analyst |
+| 2023–2024 | Bachelor Data & AI (Bac+3), Headn |
 
 ---
 
@@ -71,7 +71,7 @@ What struck me most was with high school students (10th grade) on internships: w
 |---|---|
 | **ML / DL** | Scikit-learn · Isolation Forest · TensorFlow/Keras (academic) · XGBoost (academic) |
 | **NLP / LLM** | HuggingFace Transformers · Mistral 7B · multilingual-e5 · HDBSCAN · structured LLM output · prompt engineering |
-| **MLOps** | MLflow · DVC · Prometheus · Grafana · Evidently (academic) |
+| **MLOps** | MLflow · DVC · Prometheus (academic) · Grafana (academic) · Evidently (academic) |
 | **Infra / DevOps** | Docker · Kubernetes · ArgoCD · GitHub Actions · SonarQube · Checkmarx · CI/CD |
 | **Data Engineering** | Pandas · NumPy · FastAPI · Flask · Playwright · MinIO (academic) |
 | **Visualization / BI** | Power BI · Streamlit · Dash · Plotly |
@@ -112,7 +112,7 @@ What struck me most was with high school students (10th grade) on internships: w
 
 Ancien enseignant en économie-gestion reconverti dans la data, avec une sensibilité pédagogique et andragogique. J'ai d'abord repris des études en data analyse, ce qui est cohérent avec l'économie-gestion. Avec ma spécialité comptabilité-finance, j'avais fait du SQL, et j'ai enseigné à des élèves de BTS SIO (Services Informatiques aux Organisations). J'avais aussi monté mon propre PC et, plus jeune, fait un peu de programmation : je suis donc parti là-dessus, parce que ça me tentait bien et que ça collait avec ce que j'avais fait et avec qui j'étais.
 
-L'enseignement m'apporte d'abord le côté business : le client ou l'entreprise qui m'embauche a un problème, et il faut le résoudre en prenant en compte la performance, donc l'efficacité et l'efficience. On ne va pas faire du deep learning si une macro VBA suffit.
+Ma formation en économie-gestion m'apporte d'abord le côté business : le client ou l'entreprise qui m'embauche a un problème, et il faut le résoudre en prenant en compte la performance, donc l'efficacité et l'efficience. On ne va pas faire du deep learning si une macro VBA suffit.
 
 2 ans d'alternance dans un groupe pharmaceutique international, en environnement industriel réglementé (GxP, compliance). Projets déployés en production sur un cloud privé on-premise : un outil de clustering de documents GxP, et un pipeline de génération documentaire par LLM. Également une preuve de concept de détection d'anomalies sur des équipements de chaîne du froid.
 
@@ -128,7 +128,7 @@ Je cherche un poste de data scientist, plutôt orienté entraînement de modèle
 |---|---|
 | 2026 | Bac+5, RNCP38587 *Expert en ingénierie de l'intelligence artificielle* (niveau 7), École Liora |
 | 2026 | Certification Machine Learning Engineer, Mines Paris - PSL Executive Education |
-| 2023–2024 | Bachelor Data Analyst |
+| 2023–2024 | Bachelor Data et IA (Bac+3), Headn |
 
 ---
 
@@ -148,7 +148,7 @@ Ce qui m'a le plus marqué, c'est avec les élèves de seconde en stage : on par
 |---|---|
 | **ML / DL** | Scikit-learn · Isolation Forest · TensorFlow/Keras (académique) · XGBoost (académique) |
 | **NLP / LLM** | HuggingFace Transformers · Mistral 7B · multilingual-e5 · HDBSCAN · sortie LLM structurée · prompt engineering |
-| **MLOps** | MLflow · DVC · Prometheus · Grafana · Evidently (académique) |
+| **MLOps** | MLflow · DVC · Prometheus (académique) · Grafana (académique) · Evidently (académique) |
 | **Infra / DevOps** | Docker · Kubernetes · ArgoCD · GitHub Actions · SonarQube · Checkmarx · CI/CD |
 | **Data Engineering** | Pandas · NumPy · FastAPI · Flask · Playwright · MinIO (académique) |
 | **Visualisation / BI** | Power BI · Streamlit · Dash · Plotly |
