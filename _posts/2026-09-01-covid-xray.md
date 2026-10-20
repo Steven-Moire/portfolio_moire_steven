@@ -8,6 +8,8 @@ date: 2026-09-01 09:00:00 +0200
 categories: [Projet_Data, Ecole]
 tags: [Python, TensorFlow, Keras, Streamlit, DVC, MLflow, Docker, Kubernetes, FastAPI, MinIO, Prometheus, Grafana, Evidently, Grad-CAM, MLOps, Computer-Vision, Interprétabilité]
 permalink: /projects/covid-xray/
+redirect_from:
+  - /projects/mlops-pipeline/
 ---
 
 <div class="lang-block lang-en" markdown="1">
